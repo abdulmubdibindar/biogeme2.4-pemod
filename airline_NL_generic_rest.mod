@@ -35,8 +35,8 @@ $NL
 
 [NLNests]
 // Name paramvalue  LowerBound UpperBound  status list of alt
-N_NONS    1.0          1.0        10.0       0      1
-N_STOP    1.0          1.0        10.0       0      2 3
+N_NONS    1.0          1.0        10.0       0      NonStop
+N_STOP    1.0          1.0        10.0       0      OneStop1 OneStop2
 
 
 [ConstraintNestCoef]
