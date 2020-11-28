@@ -1,13 +1,13 @@
 This file has automatically been generated.
-11/28/20 12:09:18
+11/28/20 12:27:02
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[12:09:18]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
-[12:09:18]patFileNames.cc:56  Trying default.par instead
-[12:09:18]patBiogeme.cc:134  Read default.par
+[12:27:02]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
+[12:27:02]patFileNames.cc:56  Trying default.par instead
+[12:27:02]patBiogeme.cc:134  Read default.par
  Read headers in airline.dat
  57 headers read in airline.dat
  Total number of different headers: 57
