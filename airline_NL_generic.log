@@ -1,18 +1,20 @@
 This file has automatically been generated.
-11/28/20 12:26:03
+11/28/20 16:59:51
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[12:26:03]patFileNames.cc:52  airline_NL_generic.par does not exist
-[12:26:03]patFileNames.cc:56  Trying default.par instead
-[12:26:03]patBiogeme.cc:134  Read default.par
+[16:59:51]patFileNames.cc:52  airline_NL_generic.par does not exist
+[16:59:51]patFileNames.cc:56  Trying default.par instead
+[16:59:51]patBiogeme.cc:134  Read default.par
  Read headers in airline.dat
  57 headers read in airline.dat
  Total number of different headers: 57
  Read file airline_NL_generic.mod
  Section [DataFile] is now obsolete
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
  Opening file airline.dat
  Data  file... line 500	Memory: 81 Kb
  Data  file... line 1000	Memory: 163 Kb
@@ -23,7 +25,7 @@ Michel Bierlaire, EPFL
  Data  file... line 3500	Memory: 573 Kb
  Total obs.:   3608
  Total memory: 592.102 Kb
- Detailed info in airline_NL_generic~1.sta
+ Detailed info in airline_NL_generic~2.sta
  Nbr of attributes: 58
  Nbr of alternatives: 3
  Sample size: 3609
@@ -294,18 +296,18 @@ Michel Bierlaire, EPFL
  
  
 Normal termination: You have obtained a solution !!
- Run time: 00:00
+ Run time: 00:01
  Solution = (1.16248	0.151153	-0.015801	-0.257937	1	1.88646	)
  Gradient = (-0.000198671	0.000293124	-0.0262719	0.00038556	0	3.37788e-005	)
  Final log likelihood=-2397.53
  Be patient... BIOGEME is preparing the output files
  Compute hessian by finite difference
  You can interrupt it by creating a file named STOP
- 0%	[1/6] Est. term. time: 11/28/20 12:26:04 (in 00:00)
- 10%	[2/6] Est. term. time: 11/28/20 12:26:04 (in 00:00)
- 20%	[3/6] Est. term. time: 11/28/20 12:26:04 (in 00:00)
- 30%	[4/6] Est. term. time: 11/28/20 12:26:04 (in 00:00)
- 40%	[5/6] Est. term. time: 11/28/20 12:26:04 (in 00:00)
+ 0%	[1/6] Est. term. time: 11/28/20 16:59:53 (in 00:00)
+ 10%	[2/6] Est. term. time: 11/28/20 16:59:53 (in 00:00)
+ 20%	[3/6] Est. term. time: 11/28/20 16:59:53 (in 00:00)
+ 30%	[4/6] Est. term. time: 11/28/20 16:59:53 (in 00:00)
+ 40%	[5/6] Est. term. time: 11/28/20 16:59:53 (in 00:00)
  Run time for var/covar computation: 00:00
  BIOGEME Input files
  ===================
@@ -314,12 +316,12 @@ Normal termination: You have obtained a solution !!
  Sample 1 :				airline.dat
  BIOGEME Output files
  ====================
- Estimation results:		airline_NL_generic~1.rep
- Estimation results (HTML):	airline_NL_generic~1.html
- Estimation results (Latex):	airline_NL_generic~1.tex
- Estimation results (ALogit):	airline_NL_generic~1.F12
- Result model spec. file:	airline_NL_generic~1.res
- Sample statistics:		airline_NL_generic~1.sta
+ Estimation results:		airline_NL_generic~2.rep
+ Estimation results (HTML):	airline_NL_generic~2.html
+ Estimation results (Latex):	airline_NL_generic~2.tex
+ Estimation results (ALogit):	airline_NL_generic~2.F12
+ Result model spec. file:	airline_NL_generic~2.res
+ Sample statistics:		airline_NL_generic~2.sta
  BIOGEME Debug files
  ===================
  Log file:			airline_NL_generic.log
@@ -330,5 +332,5 @@ Normal termination: You have obtained a solution !!
  ==================
  The minimum argument of exp was -512.936
 
- Run time for estimation:      00:00
- Total run time:               00:01
+ Run time for estimation:      00:01
+ Total run time:               00:02

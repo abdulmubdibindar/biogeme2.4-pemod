@@ -1,27 +1,29 @@
 This file has automatically been generated.
-11/28/20 12:27:02
+11/28/20 17:01:36
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[12:27:02]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
-[12:27:02]patFileNames.cc:56  Trying default.par instead
-[12:27:02]patBiogeme.cc:134  Read default.par
+[17:01:36]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
+[17:01:36]patFileNames.cc:56  Trying default.par instead
+[17:01:36]patBiogeme.cc:134  Read default.par
  Read headers in airline.dat
  57 headers read in airline.dat
  Total number of different headers: 57
  Read file airline_NL_generic_rest.mod
  Section [DataFile] is now obsolete
-Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 46
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
+Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 50
 Unidentified token: <N>
 Please check the syntax. A common mistake is to forget the
 mandatory blank space terminating each variable name.
-Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 46
+Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 50
 Unidentified token: <N>
 Please check the syntax. A common mistake is to forget the
 mandatory blank space terminating each variable name.
-Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 46
+Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 50
 Unidentified token: <N>
 Please check the syntax. A common mistake is to forget the
 mandatory blank space terminating each variable name.
