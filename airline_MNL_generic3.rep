@@ -1,0 +1,56 @@
+// This file has automatically been generated.
+// 11/28/20 11:04:39
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Logit
+Number of estimated parameters: 4
+        Number of observations: 3609
+         Number of individuals: 3609
+           Null log likelihood: -3964.892
+            Cte log likelihood: -2986.692
+           Init log likelihood: -3964.892
+          Final log likelihood: -2425.219
+         Likelihood ratio test: 3079.346
+                    Rho-square: 0.388
+           Adjusted rho-square: 0.387
+           Final gradient norm: +5.144e-003
+                    Diagnostic: Normal termination. Obj: 6.05545e-006 Const: 6.05545e-006
+                    Iterations: 15
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: airline.dat
+
+Utility parameters
+******************
+Name        Value   Std err   t-test p-val Rob. std err Rob. t-test Rob. p-val 
+----        -----   -------   ------ ----- ------------ ----------- ---------- 
+ASC_1       1.44    0.125     11.57  0.00  0.125        11.53       0.00       
+ASC_2       0.223   0.0657    3.40   0.00  0.0645       3.46        0.00       
+ASC_3       0.000   --fixed--                                                  
+B_COST      -0.0188 0.000674  -27.97 0.00  0.000777     -24.24      0.00       
+B_TRIP_TIME -0.317  0.0657    -4.83  0.00  0.0662       -4.80       0.00       
+
+Utility functions
+*****************
+1	NonStop	one	ASC_1 * one + B_COST * Fare_1 + B_TRIP_TIME * TripTimeHours_1
+2	OneStop1	one	ASC_2 * one + B_COST * Fare_2 + B_TRIP_TIME * TripTimeHours_2
+3	OneStop2	one	ASC_3 * one + B_COST * Fare_3 + B_TRIP_TIME * TripTimeHours_3
+
+
+Correlation of coefficients
+***************************
+Coeff1 Coeff2      Covariance Correlation t-test Rob. covar. Rob. correl. Rob. t-test 
+------ ------      ---------- ----------- ------ ----------- ------------ ----------- 
+ASC_2  B_COST      -2.62e-006 -0.0592     3.69   -1.59e-006  -0.0316      3.75        
+B_COST B_TRIP_TIME 2.08e-006  0.0470      4.54   3.25e-006   0.0632       4.51        
+ASC_2  B_TRIP_TIME -8.94e-005 -0.0207     5.76   -8.01e-005  -0.0188      5.80        
+ASC_1  ASC_2       0.00226    0.276       9.84   0.00217     0.269        9.80        
+ASC_1  B_COST      -1.22e-005 -0.145      11.71  -8.93e-006  -0.0918      11.67       
+ASC_1  B_TRIP_TIME 0.00724    0.883       23.95  0.00738     0.890        24.19       
+
+Smallest singular value of the hessian: 19.8414
+

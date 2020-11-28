@@ -1,0 +1,27 @@
+This file has automatically been generated.
+11/28/20 11:21:37
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[11:21:37]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
+[11:21:37]patFileNames.cc:56  Trying default.par instead
+[11:21:37]patBiogeme.cc:134  Read default.par
+ Read headers in airline.dat
+ 57 headers read in airline.dat
+ Total number of different headers: 57
+ Read file airline_NL_generic_rest.mod
+ Section [DataFile] is now obsolete
+Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 46
+Unidentified token: <N>
+Please check the syntax. A common mistake is to forget the
+mandatory blank space terminating each variable name.
+Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 46
+Unidentified token: <N>
+Please check the syntax. A common mistake is to forget the
+mandatory blank space terminating each variable name.
+Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 46
+Unidentified token: <N>
+Please check the syntax. A common mistake is to forget the
+mandatory blank space terminating each variable name.

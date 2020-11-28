@@ -1,0 +1,62 @@
+// This file has automatically been generated.
+// 11/26/20 10:08:47
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Logit
+Number of estimated parameters: 5
+        Number of observations: 434
+         Number of individuals: 434
+           Null log likelihood: -560.250
+           Init log likelihood: -560.250
+          Final log likelihood: -482.719
+         Likelihood ratio test: 155.061
+                    Rho-square: 0.138
+           Adjusted rho-square: 0.129
+           Final gradient norm: +1.847e-003
+                    Diagnostic: Convergence reached...
+                    Iterations: 6
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: tel.dat
+
+Utility parameters
+******************
+Name    Value  Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----    -----  -------   ------ -----   ------------ ----------- ----------   
+ASC_1   -0.527 0.148     -3.56  0.00    0.146        -3.61       0.00         
+ASC_2   0.000  --fixed--                                                      
+ASC_3   0.893  0.141     6.34   0.00    0.152        5.87        0.00         
+ASC_4   0.759  0.720     1.05   0.29  * 0.712        1.07        0.29       * 
+ASC_5   1.83   0.338     5.42   0.00    0.392        4.67        0.00         
+B1_COST -0.149 0.0194    -7.67  0.00    0.0237       -6.28       0.00         
+
+Utility functions
+*****************
+1	BM	avail1	ASC_1 * one + B1_COST * cost1
+4	EF	avail4	ASC_4 * one + B1_COST * cost4
+3	LF	avail3	ASC_3 * one + B1_COST * cost3
+5	MF	avail5	ASC_5 * one + B1_COST * cost5
+2	SM	avail2	ASC_2 * one + B1_COST * cost2
+
+
+Correlation of coefficients
+***************************
+Coeff1 Coeff2  Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------ ------  ---------- ----------- ------   ----------- ------------ -----------   
+ASC_3  ASC_4   0.0138     0.137       0.19   * 0.0138      0.128        0.19        * 
+ASC_4  B1_COST -0.00118   -0.0842     1.26   * -0.00127    -0.0754      1.27        * 
+ASC_4  ASC_5   0.0253     0.104       -1.41  * 0.0282      0.101        -1.38       * 
+ASC_1  ASC_4   0.00810    0.0759      -1.78  * 0.00635     0.0612       -1.79       * 
+ASC_1  B1_COST 9.74e-005  0.0338      -2.54    -0.000133   -0.0384      -2.54         
+ASC_3  ASC_5   0.0286     0.601       -3.38    0.0393      0.659        -2.99         
+ASC_5  B1_COST -0.00540   -0.822      5.59     -0.00817    -0.878       4.79          
+ASC_1  ASC_5   0.00655    0.131       -6.72    0.0103      0.180        -5.99         
+ASC_3  B1_COST -0.00144   -0.524      6.86     -0.00217    -0.601       6.22          
+ASC_1  ASC_3   0.00773    0.370       -8.75    0.00859     0.387        -8.61         
+
+Smallest singular value of the hessian: 1.82293
+

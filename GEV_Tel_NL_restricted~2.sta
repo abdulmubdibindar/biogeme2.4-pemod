@@ -1,0 +1,32 @@
+++++++++ 11/27/20 18:32:36 ++++++++
+Sample size=434
+Excluded Obs.:       0
+Total obs. in files: 433
+Number of cases:     1161
+Statistics of attributes
+++++++++++++++++++++++++
+Name	Nbr	Mean	Min	Max	Recommended/Conservative upper bounds for Box-Cox
+choice	434	2.64828	1	5	
+logcostBM	434	2.0841	1.18784	6.07189	
+logcostEF	434	13.4983	2.34947	13.8155	
+logcostLF	434	2.50429	1.95019	6.07649	
+logcostMF	434	7.02423	3.14759	13.8155	
+logcostSM	434	2.11815	1.7544	6.07028	
+one	434	1	1	1	
+Nbr of times alternatives are available
+Alt	#
+1	434
+2	434
+3	434
+4	13
+5	280
+Nbr of times alternatives are chosen
+Alt	#
+1	73
+2	123
+3	178
+4	3
+5	57
+Group membership
+Group	#
+1	434

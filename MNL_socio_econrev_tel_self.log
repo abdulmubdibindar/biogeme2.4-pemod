@@ -1,0 +1,68 @@
+This file has automatically been generated.
+11/26/20 13:16:28
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[13:16:28]patFileNames.cc:52  MNL_socio_econrev_tel_self.par does not exist
+[13:16:28]patFileNames.cc:56  Trying default.par instead
+[13:16:28]patBiogeme.cc:134  Read default.par
+ Read headers in tel.dat
+ 25 headers read in tel.dat
+ Total number of different headers: 25
+ Read file MNL_socio_econrev_tel_self.mod
+ Section [DataFile] is now obsolete
+ Opening file tel.dat
+ Total obs.:   433
+ Total memory: 72.8984 Kb
+ Detailed info in MNL_socio_econrev_tel_self.sta
+ Nbr of attributes: 26
+ Nbr of alternatives: 5
+ Sample size: 434
+ Nbr of groups: 1
+ Nbr of betas: 8
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 7
+ Utility function: Linear-in-parameters
+ Init loglike=-560.25
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.78e-002    1 1.00e+000 +5.6024958e+002 ****Converg  +1.10e+000 7  ++ P
+ +1.78e-002    2 2.00e+000 +4.9738489e+002 ****Converg  +1.27e+000 7  ++ P
+ +1.77e-002    3 4.00e+000 +4.7850270e+002 ****Converg  +1.12e+000 7  ++ P
+ +1.80e-002    4 8.00e+000 +4.6951158e+002 ****Converg  +1.07e+000 7  ++ P
+ +1.80e-002    5 1.60e+001 +4.6783872e+002 ****Converg  +1.01e+000 7  ++ P
+ +1.32e-003    6 3.20e+001 +4.6781121e+002 ****Converg  +9.98e-001 7  ++ P
+ +9.80e-005    7 6.40e+001 +4.6780461e+002 ****Converg  +1.00e+000 7  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (-0.558666	-0.714257	-0.908989	-0.301517	-0.110563	-0.18756	-0.402947	)
+ Gradient = (-1.56265e-006	-5.41176e-005	9.34349e-005	-1.71042e-005	0.000297089	-0.000188511	-4.14145e-005	)
+ Final log likelihood=-467.804
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		MNL_socio_econrev_tel_self.mod
+ Sample 1 :				tel.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		MNL_socio_econrev_tel_self.rep
+ Estimation results (HTML):	MNL_socio_econrev_tel_self.html
+ Estimation results (Latex):	MNL_socio_econrev_tel_self.tex
+ Estimation results (ALogit):	MNL_socio_econrev_tel_self.F12
+ Result model spec. file:	MNL_socio_econrev_tel_self.res
+ Sample statistics:		MNL_socio_econrev_tel_self.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			MNL_socio_econrev_tel_self.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -78.545
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

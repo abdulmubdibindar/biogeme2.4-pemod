@@ -1,0 +1,68 @@
+This file has automatically been generated.
+11/25/20 21:30:26
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[21:30:26]patFileNames.cc:52  binary_specific_norail_netherlands_self.par does not exist
+[21:30:26]patFileNames.cc:56  Trying default.par instead
+[21:30:26]patBiogeme.cc:134  Read default.par
+ Read headers in netherlands.dat
+ 21 headers read in netherlands.dat
+ Total number of different headers: 21
+ Read file binary_specific_norail_netherlands_self.mod
+ Section [DataFile] is now obsolete
+ Opening file netherlands.dat
+ Total obs.:   227
+ Total memory: 26.2734 Kb
+ Detailed info in binary_specific_norail_netherlands_self.sta
+ Nbr of attributes: 23
+ Nbr of alternatives: 2
+ Sample size: 228
+ Nbr of groups: 1
+ Nbr of betas: 4
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 3
+ Utility function: Linear-in-parameters
+ Init loglike=-158.038
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +6.33e-001    1 1.00e+000 +1.5803756e+002 ****Converg  +1.06e+000 3  ++ P
+ +6.33e-001    2 2.00e+000 +1.3120377e+002 ****OutTrReg +1.04e+000 3  ++ P
+ +3.98e-001    3 4.00e+000 +1.2047273e+002 ****Converg  +1.06e+000 3  ++ P
+ +7.83e-002    4 8.00e+000 +1.1890512e+002 ****Converg  +1.01e+000 3  ++ P
+ +4.57e-003    5 1.60e+001 +1.1889865e+002 ****Converg  +1.00e+000 3  ++ P
+ +5.05e-004    6 3.20e+001 +1.1888719e+002 ****Converg  +1.00e+000 3  ++ P
+ +3.51e-005    7 6.40e+001 +1.1888718e+002 ****Converg  +1.00e+000 3  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (3.33529	-0.0553495	-2.1269	)
+ Gradient = (-1.13865e-007	3.96092e-006	-8.67301e-008	)
+ Final log likelihood=-118.887
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		binary_specific_norail_netherlands_self.mod
+ Sample 1 :				netherlands.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		binary_specific_norail_netherlands_self.rep
+ Estimation results (HTML):	binary_specific_norail_netherlands_self.html
+ Estimation results (Latex):	binary_specific_norail_netherlands_self.tex
+ Estimation results (ALogit):	binary_specific_norail_netherlands_self.F12
+ Result model spec. file:	binary_specific_norail_netherlands_self.res
+ Sample statistics:		binary_specific_norail_netherlands_self.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			binary_specific_norail_netherlands_self.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -4.14516
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

@@ -1,0 +1,60 @@
+// This file has automatically been generated.
+// 11/25/20 21:34:02
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Logit
+Number of estimated parameters: 5
+        Number of observations: 228
+         Number of individuals: 228
+           Null log likelihood: -158.038
+            Cte log likelihood: -148.347
+           Init log likelihood: -158.038
+          Final log likelihood: -115.880
+         Likelihood ratio test: 84.314
+                    Rho-square: 0.267
+           Adjusted rho-square: 0.235
+           Final gradient norm: +1.032e-004
+                    Diagnostic: Convergence reached...
+                    Iterations: 8
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: netherlands.dat
+
+Utility parameters
+******************
+Name         Value   Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----         -----   -------   ------ -----   ------------ ----------- ----------   
+ASC_CAR      2.85    1.09      2.62   0.01    1.02         2.80        0.01         
+ASC_RAIL     0.000   --fixed--                                                      
+BETA_COST    -0.0575 0.0111    -5.17  0.00    0.0118       -4.89       0.00         
+BETA_SEX     0.675   0.330     2.05   0.04    0.329        2.05        0.04         
+BETA_TT_CAR  -2.34   0.489     -4.78  0.00    0.495        -4.73       0.00         
+BETA_TT_RAIL -0.529  0.418     -1.27  0.20  * 0.414        -1.28       0.20       * 
+
+Utility functions
+*****************
+0	Car	one	ASC_CAR * one + BETA_COST * car_cost + BETA_TT_CAR * car_time
+1	Rail	one	ASC_RAIL * one + BETA_COST * rail_cost + BETA_TT_RAIL * rail_time + BETA_SEX * gender
+
+
+Correlation of coefficients
+***************************
+Coeff1      Coeff2       Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------      ------       ---------- ----------- ------   ----------- ------------ -----------   
+BETA_COST   BETA_TT_RAIL -0.000202  -0.0434     1.13   * -2.21e-006  -0.000454    1.14        * 
+ASC_CAR     BETA_SEX     0.0768     0.214       2.04     0.0531      0.159        2.14          
+BETA_SEX    BETA_TT_RAIL 0.000396   0.00287     2.27     -0.0101     -0.0741      2.20          
+BETA_COST   BETA_SEX     -0.000698  -0.190      -2.21    -0.000771   -0.199       -2.21         
+ASC_CAR     BETA_COST    -0.000793  -0.0654     2.67     -0.000472   -0.0395      2.86          
+BETA_TT_CAR BETA_TT_RAIL 0.0500     0.245       -3.23    0.0670      0.327        -3.41         
+ASC_CAR     BETA_TT_CAR  -0.304     -0.570      3.64     -0.270      -0.537       3.85          
+ASC_CAR     BETA_TT_RAIL 0.281      0.617       3.78     0.243       0.576        3.98          
+BETA_COST   BETA_TT_CAR  0.00125    0.229       4.69     0.00146     0.251        4.64          
+BETA_SEX    BETA_TT_CAR  -0.0200    -0.124      4.84     -0.0198     -0.122       4.81          
+
+Smallest singular value of the hessian: 0.744541
+

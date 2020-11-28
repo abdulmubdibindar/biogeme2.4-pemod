@@ -1,0 +1,84 @@
+This file has automatically been generated.
+11/27/20 14:49:28
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[14:49:28]patFileNames.cc:52  GEV_Tel_NL_unrestricted.par does not exist
+[14:49:28]patFileNames.cc:56  Trying default.par instead
+[14:49:28]patBiogeme.cc:134  Read default.par
+ Read headers in tel.dat
+ 25 headers read in tel.dat
+ Total number of different headers: 25
+ Read file GEV_Tel_NL_unrestricted.mod
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
+ Opening file tel.dat
+ Total obs.:   433
+ Total memory: 66.1172 Kb
+ Detailed info in GEV_Tel_NL_unrestricted.sta
+ Nbr of attributes: 31
+ Nbr of alternatives: 5
+ Sample size: 434
+ Nbr of groups: 1
+ Nbr of betas: 6
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 7
+ Utility function: Linear-in-parameters
+ Init loglike=-560.25
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.78e-002    1 1.00e+000 +5.6024958e+002 ****OutTrReg +1.06e+000 6  ++ P
+ +2.03e-002    2 2.00e+000 +4.9518392e+002 ****Converg  +8.58e-001 6  +  P
+ +3.58e-002    3 2.00e+000 +4.7855348e+002 ****Converg  +7.56e-001 7  +  P
+ +3.14e-002    4 2.00e+000 +4.7603964e+002 ****Converg  +9.60e-001 7  ++ P
+ +9.88e-003    5 4.00e+000 +4.7395019e+002 ****Converg  +6.81e-001 7  +  P
+ +1.72e-002    6 4.00e+000 +4.7353391e+002 ****Converg  +9.93e-001 7  ++ P
+ +1.64e-003    7 8.00e+000 +4.7325911e+002 ****Converg  +1.08e+000 7  ++ P
+ +2.01e-003    8 1.60e+001 +4.7322650e+002 ****Converg  +1.24e+000 7  ++ P
+ +4.12e-004    9 3.20e+001 +4.7322045e+002 ****Converg  +1.34e+000 7  ++ P
+ +2.58e-004   10 6.40e+001 +4.7321953e+002 ****Converg  +1.39e+000 7  ++ P
+ +7.83e-005   11 1.28e+002 +4.7321937e+002 ****Converg  +1.41e+000 7  ++ P
+ +4.01e-005   12 2.56e+002 +4.7321934e+002 ****Converg  +1.41e+000 7  ++ P
+ +1.49e-005   13 5.12e+002 +4.7321933e+002 ****Converg  +1.42e+000 7  ++ P
+ +6.77e-006   14 1.02e+003 +4.7321933e+002 ****Converg  +1.42e+000 7  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (-0.378251	0.847299	0.893448	1.4055	-1.49004	2.29231	2.06269	)
+ Gradient = (5.18718e-005	4.71276e-005	-0.000916779	0.000714612	0.00102004	-0.000610041	-2.12129e-005	)
+ Final log likelihood=-473.219
+ Be patient... BIOGEME is preparing the output files
+ Compute hessian by finite difference
+ You can interrupt it by creating a file named STOP
+ 0%	[1/7] Est. term. time: 11/27/20 14:49:28 (in 00:00)
+ 10%	[2/7] Est. term. time: 11/27/20 14:49:28 (in 00:00)
+ 20%	[3/7] Est. term. time: 11/27/20 14:49:28 (in 00:00)
+ 30%	[4/7] Est. term. time: 11/27/20 14:49:28 (in 00:00)
+ 40%	[5/7] Est. term. time: 11/27/20 14:49:28 (in 00:00)
+ 50%	[6/7] Est. term. time: 11/27/20 14:49:28 (in 00:00)
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		GEV_Tel_NL_unrestricted.mod
+ Sample 1 :				tel.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		GEV_Tel_NL_unrestricted.rep
+ Estimation results (HTML):	GEV_Tel_NL_unrestricted.html
+ Estimation results (Latex):	GEV_Tel_NL_unrestricted.tex
+ Estimation results (ALogit):	GEV_Tel_NL_unrestricted.F12
+ Result model spec. file:	GEV_Tel_NL_unrestricted.res
+ Sample statistics:		GEV_Tel_NL_unrestricted.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			GEV_Tel_NL_unrestricted.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Nested Logit Model
+ ==================
+ The minimum argument of exp was -5.95071
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

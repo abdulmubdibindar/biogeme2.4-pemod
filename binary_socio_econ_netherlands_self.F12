@@ -1,0 +1,16 @@
+Biogeme binary_socio_econ_netherlands_self
+This file [binary_socio_econ_netherlands_self.F12] has automatically been generated.
+11/25/20 21:34:02
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+END
+0	ASC_CAR	F	2.85158	1.01747
+1	BETA_COST	F	-0.0575207	0.0117561
+2	BETA_SEX	F	0.675176	0.329348
+3	BETA_TT_CAR	F	-2.33798	0.494724
+4	BETA_TT_RAIL	F	-0.52944	0.413875
+-1
+228	-158.038	-148.347	-115.88
+   8   0 11/25/20 21:34:02
+  -3947  15857 -19917 -53686  25051 -12153  57621    -45  -7408  32727

@@ -1,0 +1,7 @@
+Name	Value	Std err	t-test	p-value		Robust Std err	Robust t-test	p-value	
+ASC_BM	-0.378	0.118	-3.20	0.00		0.117	-3.22	0.00	
+ASC_EF	0.847	0.386	2.19	0.03		0.391	2.17	0.03	
+ASC_LF	0.893	0.172	5.19	0.00		0.158	5.64	0.00	
+ASC_MF	1.41	0.260	5.41	0.00		0.238	5.90	0.00	
+ASC_SM	0.000	fixed							
+B_COST	-1.49	0.257	-5.80	0.00		0.243	-6.12	0.00	

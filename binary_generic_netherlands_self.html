@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<script src="http://transp-or.epfl.ch/biogeme/sorttable.js"></script>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>binary_generic_netherlands_self.html - Report from biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]</title>
+<meta name="keywords" content="biogeme, discrete choice, random utility">
+<meta name="description" content="Report from biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]">
+<meta name="author" content="Michel Bierlaire">
+<style type=text/css>
+<!--table
+.biostyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;}
+.boundstyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;
+        color:red}
+-->
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+<h1>biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]</h1>
+<h2>Michel Bierlaire, EPFL</h2>
+<p>This file has automatically been generated.</p>
+<p> 11/25/20 21:08:48</p>
+<p><font size='+1'>Tip: click on the columns headers to sort a table  [<a href='http://www.kryogenix.org/code/browser/sorttable/' target='_blank'>Credits</a>]</font></p>
+
+<table>
+</table>
+
+<table border="0">
+<tr class=biostyle ><td align=right><strong>Model</strong>:</td> <td>Logit</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of estimated parameters</strong>: </td> <td>3</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of  observations</strong>: </td> <td>228</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of individuals</strong>: </td> <td>228</td></tr>
+<tr class=biostyle><td align=right><strong>Null log likelihood</strong>:	</td> <td>-158.038</td></tr>
+<tr class=biostyle><td align=right><strong>Cte log likelihood</strong>:	</td> <td>-148.347</td></tr>
+<tr class=biostyle><td align=right><strong>Init log likelihood</strong>:	</td> <td>-158.038</td></tr>
+<tr class=biostyle><td align=right><strong>Final log likelihood</strong>:	</td> <td>-123.133</td></tr>
+<tr class=biostyle><td align=right><strong>Likelihood ratio test</strong>:	</td> <td>69.809</td></tr>
+<tr class=biostyle><td align=right><strong>Rho-square</strong>:		</td> <td>0.221</td></tr>
+<tr class=biostyle><td align=right><strong>Adjusted rho-square</strong>:		</td> <td>0.202</td></tr>
+<tr class=biostyle><td align=right><strong>Final gradient norm</strong>:	</td> <td>+3.469e-005</td></tr>
+<tr class=biostyle><td align=right><strong>Diagnostic</strong>:	</td> <td>Convergence reached...</td></tr>
+<tr class=biostyle><td align=right><strong>Iterations</strong>:	</td> <td>6</td></tr>
+<tr class=biostyle><td align=right><strong>Run time</strong>:	</td> <td>00:00</td></tr>
+<tr class=biostyle><td align=right><strong>Variance-covariance</strong>:	</td> <td>from analytical hessian
+</td></tr>
+<tr class=biostyle><td align=right><strong>Sample file</strong>:	</td><td>netherlands.dat</td></tr></table>
+<h2>Utility parameters</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Name </th><th>Value		</th><th>Std err		</th><th>t-test</th><th>p-value</th><th></th><th>Robust Std err		</th><th>Robust t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle>
+<td>ASC_CAR</td><td>-0.798</td><td>0.270</td><td>-2.95</td><td>0.00</td><td></td><td>0.275</td><td>-2.90</td><td>0.00</td><td></td></tr>
+<tr class=boundstyle>
+<td>ASC_RAIL</td><td>0.000</td><td>fixed</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class=biostyle>
+<td>BETA_COST</td><td>-0.0499</td><td>0.0103</td><td>-4.85</td><td>0.00</td><td></td><td>0.0107</td><td>-4.67</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>BETA_TIME</td><td>-1.33</td><td>0.344</td><td>-3.86</td><td>0.00</td><td></td><td>0.354</td><td>-3.75</td><td>0.00</td><td></td></tr>
+</table>
+<h2>Utility functions</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Id</th><th>Name</th><th>Availability</th><th>Specification</th></tr><tr class=biostyle><td>0</td><td>Car</td><td>one</td><td>ASC_CAR * one + BETA_COST * car_cost + BETA_TIME * car_time</td></tr>
+<tr class=biostyle><td>1</td><td>Rail</td><td>one</td><td>ASC_RAIL * one + BETA_COST * rail_cost + BETA_TIME * rail_time</td></tr>
+</table>
+
+
+
+<h2>Correlation of coefficients</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Coefficient1 </th><th>Coefficient2</th><th>Covariance</th><th>Correlation</th><th>t-test</th><th>p-value</th><th></th><th>Rob. cov.</th><th>Rob. corr.</th><th>Rob. t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle><td>
+ASC_CAR	</td><td>BETA_TIME</td><td>0.0455</td><td>0.491</td><td>1.67</td><td>0.09	</td><td>*</td><td>0.0464</td><td>0.476</td><td>1.60</td><td>0.11	</td><td>*</td><tr class=biostyle><td>
+ASC_CAR	</td><td>BETA_COST</td><td>0.00192</td><td>0.693</td><td>-2.84</td><td>0.00	</td><td></td><td>0.00210</td><td>0.713</td><td>-2.79</td><td>0.01	</td><td></td><tr class=biostyle><td>
+BETA_COST	</td><td>BETA_TIME</td><td>0.000295</td><td>0.0833</td><td>3.72</td><td>0.00	</td><td></td><td>0.000311</td><td>0.0822</td><td>3.61</td><td>0.00	</td><td></td></table>
+<p>Smallest singular value of the hessian: 6.79119</p>
+</html>

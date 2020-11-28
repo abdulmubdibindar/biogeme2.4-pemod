@@ -1,0 +1,67 @@
+This file has automatically been generated.
+11/25/20 21:08:48
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[21:08:48]patFileNames.cc:52  binary_generic_netherlands_self.par does not exist
+[21:08:48]patFileNames.cc:56  Trying default.par instead
+[21:08:48]patBiogeme.cc:134  Read default.par
+ Read headers in netherlands.dat
+ 21 headers read in netherlands.dat
+ Total number of different headers: 21
+ Read file binary_generic_netherlands_self.mod
+ Section [DataFile] is now obsolete
+ Opening file netherlands.dat
+ Total obs.:   227
+ Total memory: 29.8359 Kb
+ Detailed info in binary_generic_netherlands_self.sta
+ Nbr of attributes: 24
+ Nbr of alternatives: 2
+ Sample size: 228
+ Nbr of groups: 1
+ Nbr of betas: 4
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 3
+ Utility function: Linear-in-parameters
+ Init loglike=-158.038
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +6.33e-001    1 1.00e+000 +1.5803756e+002 ****Converg  +1.06e+000 3  ++ P
+ +6.33e-001    2 2.00e+000 +1.3202892e+002 ****Converg  +1.08e+000 3  ++ P
+ +4.78e-001    3 4.00e+000 +1.2344160e+002 ****Converg  +1.02e+000 3  ++ P
+ +2.84e-002    4 8.00e+000 +1.2329401e+002 ****Converg  +1.02e+000 3  ++ P
+ +7.57e-003    5 1.60e+001 +1.2313325e+002 ****Converg  +1.00e+000 3  ++ P
+ +7.68e-005    6 3.20e+001 +1.2313307e+002 ****Converg  +1.00e+000 3  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (-0.797548	-0.0499351	-1.32586	)
+ Gradient = (-3.78849e-007	3.4679e-005	7.68717e-007	)
+ Final log likelihood=-123.133
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		binary_generic_netherlands_self.mod
+ Sample 1 :				netherlands.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		binary_generic_netherlands_self.rep
+ Estimation results (HTML):	binary_generic_netherlands_self.html
+ Estimation results (Latex):	binary_generic_netherlands_self.tex
+ Estimation results (ALogit):	binary_generic_netherlands_self.F12
+ Result model spec. file:	binary_generic_netherlands_self.res
+ Sample statistics:		binary_generic_netherlands_self.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			binary_generic_netherlands_self.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -3.90283
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

@@ -1,0 +1,17 @@
+Biogeme airline_MNL_generic
+This file [airline_MNL_generic~1.F12] has automatically been generated.
+11/28/20 10:20:58
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+END
+0	ASC_1	F	-48.013	0.0584908
+1	ASC_2	F	0.217548	0.0654807
+2	B_COST	F	-0.0187828	0.000671233
+3	B_FLY_TIME	F	-100	1.79769e+308
+4	B_LEGROOM1	F	2.03327e-007	1.79769e+308
+5	B_LEGROOM2	F	1.89325e-007	1.79769e+308
+6	B_LEGROOM3	F	1.75199e-007	1.79769e+308
+-1
+3609	-3964.89	-2986.69	-2436.96
+  32   0 11/28/20 10:20:58

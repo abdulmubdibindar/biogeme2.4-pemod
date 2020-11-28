@@ -1,0 +1,66 @@
+%% This file is designed to be included into a LaTeX document
+%% See http://www.latex-project.org/ for information about LaTeX
+%% biogeme 2.4
+%% Compiled Sun Oct 25 23:01:47 WEST 2015
+%% Michel Bierlaire, EPFL
+%% Report created on 11/27/20 18:32:36
+
+
+\begin{flushleft}
+\begin{tabular}{rcl}
+\hline
+Model &:& Nested Logit\\
+Number of estimated parameters&:&7\\
+Number of  observations &:& 434\\
+Number of individuals&:&434\\
+Null log likelihood&:&-560.250\\
+Init log likelihood&:&-560.250\\
+Final log likelihood&:&-473.288\\
+Likelihood ratio test &:&173.924\\
+Rho-square&:&0.155\\
+Adjusted rho-square&:&0.143\\
+Final gradient norm&:&+8.482e-001\\
+Diagnostic&:&Normal termination. Obj: 6.05545e-006 Const: 6.05545e-006\\
+Iterations&:&20\\
+Run time&:&00:00\\
+Variance-covariance&:&from finite difference hessian\\
+Sample file&:&tel.dat\\
+\end{tabular}
+\end{flushleft}
+%%
+%%
+%%
+  \begin{tabular}{l}
+\begin{tabular}{rlr@{.}lr@{.}lr@{.}lr@{.}l}
+Parameter &                       &   \multicolumn{2}{l}{Coeff.}      & \multicolumn{2}{l}{Asympt.}  &     \multicolumn{4}{l}{}   \\
+number &  Description                     &   \multicolumn{2}{l}{estimate}      & \multicolumn{2}{l}{std. error}  &   \multicolumn{2}{l}{$t$-stat}  &   \multicolumn{2}{l}{$p$-value}   \\
+
+\hline
+
+1 & ASC\_BM & -0&368 & 0&110 & -3&35 & 0&00 \\
+2 & ASC\_EF & 0&833 & 0&398 & 2&09 & 0&04 \\
+3 & ASC\_LF & 0&882 & 0&167 & 5&29 & 0&00 \\
+4 & ASC\_MF & 1&39 & 0&251 & 5&51 & 0&00 \\
+5 & B\_COST & -1&50 & 0&257 & -5&83 & 0&00 \\
+\hline
+6 & N\_FLAT & 2&16 & 0&519 & 4&17\footnotemark[1] & 0&00 \\
+7 & N\_MEAS & 2&16 & 0&519 & 4&17\footnotemark[1] & 0&00 \\
+\hline
+
+\end{tabular}
+\\
+\begin{tabular}{rcl}
+\multicolumn{3}{l}{\bf Summary statistics}\\
+\multicolumn{3}{l}{ Number of observations = $434$} \\
+ $\mathcal{L}(0)$ &=&  $-560.250$ \\
+ $\mathcal{L}(c)$ &=& ???\\
+ $\mathcal{L}(\hat{\beta})$ &=& $-473.288 $  \\
+ $-2[\mathcal{L}(0) -\mathcal{L}(\hat{\beta})]$ &=& $173.924$ \\
+    $\rho^2$ &=&   $0.155$ \\
+    $\bar{\rho}^2$ &=&    $0.143$ \\
+\end{tabular}
+\end{tabular}
+\footnotetext[1]{$t$-test against 1} 
+\end{document}
+%%% Another joint format
+%%%

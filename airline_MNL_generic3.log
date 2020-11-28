@@ -1,0 +1,255 @@
+This file has automatically been generated.
+11/28/20 11:04:38
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[11:04:38]patFileNames.cc:52  airline_MNL_generic3.par does not exist
+[11:04:38]patFileNames.cc:56  Trying default.par instead
+[11:04:38]patBiogeme.cc:134  Read default.par
+ Read headers in airline.dat
+ 57 headers read in airline.dat
+ Total number of different headers: 57
+ Read file airline_MNL_generic3.mod
+ Section [DataFile] is now obsolete
+ Opening file airline.dat
+ Data  file... line 500	Memory: 81 Kb
+ Data  file... line 1000	Memory: 163 Kb
+ Data  file... line 1500	Memory: 245 Kb
+ Data  file... line 2000	Memory: 327 Kb
+ Data  file... line 2500	Memory: 409 Kb
+ Data  file... line 3000	Memory: 491 Kb
+ Data  file... line 3500	Memory: 573 Kb
+ Total obs.:   3608
+ Total memory: 592.102 Kb
+ Detailed info in airline_MNL_generic3.sta
+ Nbr of attributes: 58
+ Nbr of alternatives: 3
+ Sample size: 3609
+ Nbr of groups: 1
+ Nbr of betas: 5
+ Run time for data processing: 00:01
+ Dimension of the optimisation problem = 4
+ Utility function: Linear-in-parameters
+ Init loglike=-3964.89
+ Use CFSQP
+ 
+
+  CFSQP Version 2.5d (Released February 1998)
+           Copyright (c) 1993 --- 1998
+            C.T. Lawrence, J.L. Zhou
+                 and A.L. Tits
+              All Rights Reserved
+
+ The given initial point is feasible for inequality
+          constraints and linear equality constraints:
+                      	 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  objectives
+  			 +3.96489174980298e+003
+  
+  iteration                                    1
+  x                   	 +3.12500000000000e-002
+  			 -3.12500000000000e-002
+  			 -3.12500000000000e-002
+  			 -3.12500000000000e-002
+  objectives
+  			 +3.91882569707386e+003
+  step                    +6.25000000000000e-002
+  d0norm                  +1.00000000000000e+000
+  ktnorm                  +1.00000000000000e+000
+  ncallf                                       6
+ 
+ iteration                                    2
+  x                   	 +8.12255859375000e-001
+  			 -8.12255859375000e-001
+  			 -2.92686634049596e-002
+  			 -8.12255859375000e-001
+  objectives
+  			 +2.68207088224765e+003
+  step                    +7.81250000000000e-003
+  d0norm                  +1.73151139898845e+002
+  ktnorm                  +4.27501155174027e+004
+  ncallf                                      14
+ 
+ iteration                                    3
+  x                   	 +1.25098349735930e+000
+  			 +7.62935638427734e-001
+  			 -2.95795258938866e-002
+  			 -1.07822035150819e+000
+  objectives
+  			 +2.63076227985317e+003
+  step                    +1.56250000000000e-002
+  d0norm                  +1.06024792203701e+002
+  ktnorm                  +1.05554387868825e+004
+  ncallf                                      21
+ 
+ iteration                                    4
+  x                   	 +2.29494782812330e+000
+  			 +8.11042548091331e-001
+  			 -2.94990253988110e-002
+  			 -5.20089969415686e-001
+  objectives
+  			 +2.61230595531172e+003
+  step                    +3.12500000000000e-002
+  d0norm                  +3.79127125967714e+001
+  ktnorm                  +8.10129104587504e+003
+  ncallf                                      27
+ 
+ iteration                                    5
+  x                   	 +1.76810434833069e+000
+  			 +2.47602892837786e-001
+  			 -2.52529668743001e-002
+  			 -3.36673350544813e-001
+  objectives
+  			 +2.46996208387598e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +7.92898469164389e-001
+  ktnorm                  +7.17182092508013e+003
+  ncallf                                      28
+ 
+ iteration                                    6
+  x                   	 +1.31861450428172e+000
+  			 +6.34479966156916e-002
+  			 -1.88497218943728e-002
+  			 -2.73217239440265e-001
+  objectives
+  			 +2.43259755237818e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +4.89920223392057e-001
+  ktnorm                  +9.32930253952034e+003
+  ncallf                                      29
+ 
+ iteration                                    7
+  x                   	 +1.44158914546960e+000
+  			 +2.37572910600734e-001
+  			 -1.91515879635953e-002
+  			 -3.25124888021920e-001
+  objectives
+  			 +2.42535837979726e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +2.19400873175078e-001
+  ktnorm                  +2.44647921876972e+003
+  ncallf                                      30
+ 
+ iteration                                    8
+  x                   	 +1.44444146126017e+000
+  			 +2.21278069010801e-001
+  			 -1.88133992997341e-002
+  			 -3.17012530728581e-001
+  objectives
+  			 +2.42522164739549e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +1.84277584159687e-002
+  ktnorm                  +7.75610705147180e+002
+  ncallf                                      31
+ 
+ iteration                                    9
+  x                   	 +1.44396575600698e+000
+  			 +2.24053371094280e-001
+  			 -1.88356817091980e-002
+  			 -3.16977415381679e-001
+  objectives
+  			 +2.42521859764073e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +2.81608358111768e-003
+  ktnorm                  +1.02177548694760e+002
+  ncallf                                      32
+ 
+ iteration                                   10
+  x                   	 +1.44309259674314e+000
+  			 +2.23391535553904e-001
+  			 -1.88405076115011e-002
+  			 -3.17507481891840e-001
+  objectives
+  			 +2.42521852001731e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +1.21713893087521e-003
+  ktnorm                  +3.71465979303234e+000
+  ncallf                                      33
+ 
+ iteration                                   11
+  x                   	 +1.44347543001178e+000
+  			 +2.23465717654227e-001
+  			 -1.88392657862828e-002
+  			 -3.17286832094154e-001
+  objectives
+  			 +2.42521851316359e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +4.48053758978758e-004
+  ktnorm                  +2.82828382838589e+000
+  ncallf                                      34
+ 
+ iteration                                   12
+  x                   	 +1.44341041822181e+000
+  			 +2.23475283178291e-001
+  			 -1.88391102284951e-002
+  			 -3.17319017549851e-001
+  objectives
+  			 +2.42521851303861e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +7.31707581075685e-005
+  ktnorm                  +8.34399162286551e-002
+  ncallf                                      35
+ 
+ iteration                                   13
+  x                   	 +1.44341939090816e+000
+  			 +2.23472474696230e-001
+  			 -1.88391720955766e-002
+  			 -3.17315037764981e-001
+  objectives
+  			 +2.42521851303042e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +1.02097593983722e-005
+  ktnorm                  +1.05894692963734e-001
+  ncallf                                      36
+ 
+ iteration                                   14
+  inform                                       0
+  x                   	 +1.44341939090816e+000
+  			 +2.23472474696230e-001
+  			 -1.88391720955766e-002
+  			 -3.17315037764981e-001
+  objectives
+  			 +2.42521851303042e+003
+  step                    +1.00000000000000e+000
+  d0norm                  +1.83771556860113e-007
+  ktnorm                  +5.14424570574883e-003
+  ncallf                                      36
+ 
+ 
+Normal termination: You have obtained a solution !!
+ Run time: 00:00
+ Solution = (1.44342	0.223472	-0.0188392	-0.317315	)
+ Gradient = (-1.56131e-005	-1.35678e-006	-0.00514422	6.28851e-006	)
+ Final log likelihood=-2425.22
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		airline_MNL_generic3.mod
+ Sample 1 :				airline.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		airline_MNL_generic3.rep
+ Estimation results (HTML):	airline_MNL_generic3.html
+ Estimation results (Latex):	airline_MNL_generic3.tex
+ Estimation results (ALogit):	airline_MNL_generic3.F12
+ Result model spec. file:	airline_MNL_generic3.res
+ Sample statistics:		airline_MNL_generic3.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			airline_MNL_generic3.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -510.037
+
+ Run time for estimation:      00:00
+ Total run time:               00:01

@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<script src="http://transp-or.epfl.ch/biogeme/sorttable.js"></script>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>binary_socio_econ_netherlands_self.html - Report from biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]</title>
+<meta name="keywords" content="biogeme, discrete choice, random utility">
+<meta name="description" content="Report from biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]">
+<meta name="author" content="Michel Bierlaire">
+<style type=text/css>
+<!--table
+.biostyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;}
+.boundstyle
+	{font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	font-family:Courier;
+        color:red}
+-->
+</style>
+</head>
+
+<body bgcolor="#ffffff">
+<h1>biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]</h1>
+<h2>Michel Bierlaire, EPFL</h2>
+<p>This file has automatically been generated.</p>
+<p> 11/25/20 21:34:02</p>
+<p><font size='+1'>Tip: click on the columns headers to sort a table  [<a href='http://www.kryogenix.org/code/browser/sorttable/' target='_blank'>Credits</a>]</font></p>
+
+<table>
+</table>
+
+<table border="0">
+<tr class=biostyle ><td align=right><strong>Model</strong>:</td> <td>Logit</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of estimated parameters</strong>: </td> <td>5</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of  observations</strong>: </td> <td>228</td></tr>
+<tr class=biostyle><td align=right ><strong>Number of individuals</strong>: </td> <td>228</td></tr>
+<tr class=biostyle><td align=right><strong>Null log likelihood</strong>:	</td> <td>-158.038</td></tr>
+<tr class=biostyle><td align=right><strong>Cte log likelihood</strong>:	</td> <td>-148.347</td></tr>
+<tr class=biostyle><td align=right><strong>Init log likelihood</strong>:	</td> <td>-158.038</td></tr>
+<tr class=biostyle><td align=right><strong>Final log likelihood</strong>:	</td> <td>-115.880</td></tr>
+<tr class=biostyle><td align=right><strong>Likelihood ratio test</strong>:	</td> <td>84.314</td></tr>
+<tr class=biostyle><td align=right><strong>Rho-square</strong>:		</td> <td>0.267</td></tr>
+<tr class=biostyle><td align=right><strong>Adjusted rho-square</strong>:		</td> <td>0.235</td></tr>
+<tr class=biostyle><td align=right><strong>Final gradient norm</strong>:	</td> <td>+1.032e-004</td></tr>
+<tr class=biostyle><td align=right><strong>Diagnostic</strong>:	</td> <td>Convergence reached...</td></tr>
+<tr class=biostyle><td align=right><strong>Iterations</strong>:	</td> <td>8</td></tr>
+<tr class=biostyle><td align=right><strong>Run time</strong>:	</td> <td>00:00</td></tr>
+<tr class=biostyle><td align=right><strong>Variance-covariance</strong>:	</td> <td>from analytical hessian
+</td></tr>
+<tr class=biostyle><td align=right><strong>Sample file</strong>:	</td><td>netherlands.dat</td></tr></table>
+<h2>Utility parameters</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Name </th><th>Value		</th><th>Std err		</th><th>t-test</th><th>p-value</th><th></th><th>Robust Std err		</th><th>Robust t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle>
+<td>ASC_CAR</td><td>2.85</td><td>1.09</td><td>2.62</td><td>0.01</td><td></td><td>1.02</td><td>2.80</td><td>0.01</td><td></td></tr>
+<tr class=boundstyle>
+<td>ASC_RAIL</td><td>0.000</td><td>fixed</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr class=biostyle>
+<td>BETA_COST</td><td>-0.0575</td><td>0.0111</td><td>-5.17</td><td>0.00</td><td></td><td>0.0118</td><td>-4.89</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>BETA_SEX</td><td>0.675</td><td>0.330</td><td>2.05</td><td>0.04</td><td></td><td>0.329</td><td>2.05</td><td>0.04</td><td></td></tr>
+<tr class=biostyle>
+<td>BETA_TT_CAR</td><td>-2.34</td><td>0.489</td><td>-4.78</td><td>0.00</td><td></td><td>0.495</td><td>-4.73</td><td>0.00</td><td></td></tr>
+<tr class=biostyle>
+<td>BETA_TT_RAIL</td><td>-0.529</td><td>0.418</td><td>-1.27</td><td>0.20</td><td>*</td><td>0.414</td><td>-1.28</td><td>0.20</td><td>*</td></tr>
+</table>
+<h2>Utility functions</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Id</th><th>Name</th><th>Availability</th><th>Specification</th></tr><tr class=biostyle><td>0</td><td>Car</td><td>one</td><td>ASC_CAR * one + BETA_COST * car_cost + BETA_TT_CAR * car_time</td></tr>
+<tr class=biostyle><td>1</td><td>Rail</td><td>one</td><td>ASC_RAIL * one + BETA_COST * rail_cost + BETA_TT_RAIL * rail_time + BETA_SEX * gender</td></tr>
+</table>
+
+
+
+<h2>Correlation of coefficients</h2>
+<table border="1" class="sortable">
+<tr class=biostyle><th>Coefficient1 </th><th>Coefficient2</th><th>Covariance</th><th>Correlation</th><th>t-test</th><th>p-value</th><th></th><th>Rob. cov.</th><th>Rob. corr.</th><th>Rob. t-test</th><th>p-value</th><th></th></tr>
+<tr class=biostyle><td>
+BETA_COST	</td><td>BETA_TT_RAIL</td><td>-0.000202</td><td>-0.0434</td><td>1.13</td><td>0.26	</td><td>*</td><td>-2.21e-006</td><td>-0.000454</td><td>1.14</td><td>0.25	</td><td>*</td><tr class=biostyle><td>
+ASC_CAR	</td><td>BETA_SEX</td><td>0.0768</td><td>0.214</td><td>2.04</td><td>0.04	</td><td></td><td>0.0531</td><td>0.159</td><td>2.14</td><td>0.03	</td><td></td><tr class=biostyle><td>
+BETA_SEX	</td><td>BETA_TT_RAIL</td><td>0.000396</td><td>0.00287</td><td>2.27</td><td>0.02	</td><td></td><td>-0.0101</td><td>-0.0741</td><td>2.20</td><td>0.03	</td><td></td><tr class=biostyle><td>
+BETA_COST	</td><td>BETA_SEX</td><td>-0.000698</td><td>-0.190</td><td>-2.21</td><td>0.03	</td><td></td><td>-0.000771</td><td>-0.199</td><td>-2.21</td><td>0.03	</td><td></td><tr class=biostyle><td>
+ASC_CAR	</td><td>BETA_COST</td><td>-0.000793</td><td>-0.0654</td><td>2.67</td><td>0.01	</td><td></td><td>-0.000472</td><td>-0.0395</td><td>2.86</td><td>0.00	</td><td></td><tr class=biostyle><td>
+BETA_TT_CAR	</td><td>BETA_TT_RAIL</td><td>0.0500</td><td>0.245</td><td>-3.23</td><td>0.00	</td><td></td><td>0.0670</td><td>0.327</td><td>-3.41</td><td>0.00	</td><td></td><tr class=biostyle><td>
+ASC_CAR	</td><td>BETA_TT_CAR</td><td>-0.304</td><td>-0.570</td><td>3.64</td><td>0.00	</td><td></td><td>-0.270</td><td>-0.537</td><td>3.85</td><td>0.00	</td><td></td><tr class=biostyle><td>
+ASC_CAR	</td><td>BETA_TT_RAIL</td><td>0.281</td><td>0.617</td><td>3.78</td><td>0.00	</td><td></td><td>0.243</td><td>0.576</td><td>3.98</td><td>0.00	</td><td></td><tr class=biostyle><td>
+BETA_COST	</td><td>BETA_TT_CAR</td><td>0.00125</td><td>0.229</td><td>4.69</td><td>0.00	</td><td></td><td>0.00146</td><td>0.251</td><td>4.64</td><td>0.00	</td><td></td><tr class=biostyle><td>
+BETA_SEX	</td><td>BETA_TT_CAR</td><td>-0.0200</td><td>-0.124</td><td>4.84</td><td>0.00	</td><td></td><td>-0.0198</td><td>-0.122</td><td>4.81</td><td>0.00	</td><td></td></table>
+<p>Smallest singular value of the hessian: 0.744541</p>
+</html>

@@ -1,5 +1,5 @@
 // Nyobain tubes anak pemodelan hehe
-// nested Logit Unrestricted Generic
+// 1nested Logit Unrestricted Generic
 // Muhammad Abdul Mubdi Bindar, 2020
 // Dataset: airline.dat
 

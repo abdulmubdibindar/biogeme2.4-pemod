@@ -1,0 +1,51 @@
+// This file has automatically been generated.
+// 11/25/20 21:08:48
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Logit
+Number of estimated parameters: 3
+        Number of observations: 228
+         Number of individuals: 228
+           Null log likelihood: -158.038
+            Cte log likelihood: -148.347
+           Init log likelihood: -158.038
+          Final log likelihood: -123.133
+         Likelihood ratio test: 69.809
+                    Rho-square: 0.221
+           Adjusted rho-square: 0.202
+           Final gradient norm: +3.469e-005
+                    Diagnostic: Convergence reached...
+                    Iterations: 6
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: netherlands.dat
+
+Utility parameters
+******************
+Name      Value   Std err   t-test p-val Rob. std err Rob. t-test Rob. p-val 
+----      -----   -------   ------ ----- ------------ ----------- ---------- 
+ASC_CAR   -0.798  0.270     -2.95  0.00  0.275        -2.90       0.00       
+ASC_RAIL  0.000   --fixed--                                                  
+BETA_COST -0.0499 0.0103    -4.85  0.00  0.0107       -4.67       0.00       
+BETA_TIME -1.33   0.344     -3.86  0.00  0.354        -3.75       0.00       
+
+Utility functions
+*****************
+0	Car	one	ASC_CAR * one + BETA_COST * car_cost + BETA_TIME * car_time
+1	Rail	one	ASC_RAIL * one + BETA_COST * rail_cost + BETA_TIME * rail_time
+
+
+Correlation of coefficients
+***************************
+Coeff1    Coeff2    Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------    ------    ---------- ----------- ------   ----------- ------------ -----------   
+ASC_CAR   BETA_TIME 0.0455     0.491       1.67   * 0.0464      0.476        1.60        * 
+ASC_CAR   BETA_COST 0.00192    0.693       -2.84    0.00210     0.713        -2.79         
+BETA_COST BETA_TIME 0.000295   0.0833      3.72     0.000311    0.0822       3.61          
+
+Smallest singular value of the hessian: 6.79119
+

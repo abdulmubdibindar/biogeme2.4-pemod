@@ -1,0 +1,69 @@
+// This file has automatically been generated.
+// 11/27/20 14:49:28
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Nested Logit
+Number of estimated parameters: 7
+        Number of observations: 434
+         Number of individuals: 434
+           Null log likelihood: -560.250
+           Init log likelihood: -560.250
+          Final log likelihood: -473.219
+         Likelihood ratio test: 174.060
+                    Rho-square: 0.155
+           Adjusted rho-square: 0.143
+           Final gradient norm: +1.664e-003
+                    Diagnostic: Convergence reached...
+                    Iterations: 14
+                      Run time: 00:00
+           Variance-covariance: from finite difference hessian
+                   Sample file: tel.dat
+
+Utility parameters
+******************
+Name   Value  Std err   t-test p-val Rob. std err Rob. t-test Rob. p-val 
+----   -----  -------   ------ ----- ------------ ----------- ---------- 
+ASC_BM -0.378 0.118     -3.20  0.00  0.117        -3.22       0.00       
+ASC_EF 0.847  0.386     2.19   0.03  0.391        2.17        0.03       
+ASC_LF 0.893  0.172     5.19   0.00  0.158        5.64        0.00       
+ASC_MF 1.41   0.260     5.41   0.00  0.238        5.90        0.00       
+ASC_SM 0.000  --fixed--                                                  
+B_COST -1.49  0.257     -5.80  0.00  0.243        -6.12       0.00       
+Model parameters
+******************
+Name   Value Std err t-test(0) p-val(0) t-test(1) p-val(1)   Rob. std err Rob. t-test(0) Rob. p-val(0) Rob. t-test(1) Rob. p-val(1)   
+----   ----- ------- --------- -------- --------- --------   ------------ -------------- ------------- -------------- -------------   
+N_FLAT 2.29  0.640   3.58      0.00     2.02      0.04       0.763        3.00           0.00          1.69           0.09          * 
+N_MEAS 2.06  0.575   3.59      0.00     1.85      0.06     * 0.573        3.60           0.00          1.86           0.06          * 
+
+
+Utility functions
+*****************
+1	BM	avail1	ASC_BM * one + B_COST * logcostBM
+4	EF	avail4	ASC_EF * one + B_COST * logcostEF
+3	LF	avail3	ASC_LF * one + B_COST * logcostLF
+5	MF	avail5	ASC_MF * one + B_COST * logcostMF
+2	SM	avail2	ASC_SM * one + B_COST * logcostSM
+
+
+Correlation of coefficients
+***************************
+Coeff1 Coeff2 Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------ ------ ---------- ----------- ------   ----------- ------------ -----------   
+ASC_EF ASC_LF 0.0269     0.404       -0.13  * 0.0214      0.346        -0.13       * 
+ASC_EF ASC_MF 0.0378     0.377       -1.49  * 0.0295      0.316        -1.44       * 
+ASC_BM ASC_EF -0.00858   -0.188      -2.89    -0.00695    -0.152       -2.89         
+ASC_LF ASC_MF 0.0401     0.896       -3.93    0.0333      0.881        -4.13         
+ASC_EF B_COST -0.0293    -0.295      4.47     -0.0202     -0.213       4.65          
+ASC_BM ASC_LF -0.00960   -0.471      -5.07    -0.00806    -0.434       -5.42         
+ASC_BM ASC_MF -0.0159    -0.518      -5.30    -0.0138     -0.493       -5.69         
+ASC_BM B_COST 0.0190     0.625       5.42     0.0175      0.614        5.71          
+ASC_MF B_COST -0.0547    -0.819      5.88     -0.0453     -0.781       6.37          
+ASC_LF B_COST -0.0328    -0.741      5.93     -0.0259     -0.672       6.46          
+
+Smallest singular value of the hessian: 1.18446
+

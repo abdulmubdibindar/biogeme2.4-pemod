@@ -1,0 +1,67 @@
+This file has automatically been generated.
+11/26/20 10:08:47
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[10:08:47]patFileNames.cc:52  MNL_generic_tel.par does not exist
+[10:08:47]patFileNames.cc:56  Trying default.par instead
+[10:08:47]patBiogeme.cc:134  Read default.par
+ Read headers in tel.dat
+ 25 headers read in tel.dat
+ Total number of different headers: 25
+ Read file MNL_generic_tel.mod
+ Section [DataFile] is now obsolete
+ Opening file tel.dat
+ Total obs.:   433
+ Total memory: 66.1172 Kb
+ Detailed info in MNL_generic_tel.sta
+ Nbr of attributes: 26
+ Nbr of alternatives: 5
+ Sample size: 434
+ Nbr of groups: 1
+ Nbr of betas: 6
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 5
+ Utility function: Linear-in-parameters
+ Init loglike=-560.25
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +1.78e-002    1 1.00e+000 +5.6024958e+002 ****Converg  +1.09e+000 5  ++ P
+ +1.78e-002    2 2.00e+000 +5.0958550e+002 ****Converg  +1.28e+000 5  ++ P
+ +1.77e-002    3 4.00e+000 +4.9066312e+002 ****Converg  +1.12e+000 5  ++ P
+ +1.76e-002    4 8.00e+000 +4.8344390e+002 ****Converg  +1.05e+000 5  ++ P
+ +5.93e-003    5 1.60e+001 +4.8289537e+002 ****Converg  +9.23e-001 5  ++ P
+ +2.94e-004    6 3.20e+001 +4.8272119e+002 ****Converg  +1.01e+000 5  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (-0.527043	0.893097	0.759116	1.83104	-0.149086	)
+ Gradient = (-0.000119607	-0.000329591	0.000719091	-9.52383e-005	0.00166168	)
+ Final log likelihood=-482.719
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		MNL_generic_tel.mod
+ Sample 1 :				tel.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		MNL_generic_tel.rep
+ Estimation results (HTML):	MNL_generic_tel.html
+ Estimation results (Latex):	MNL_generic_tel.tex
+ Estimation results (ALogit):	MNL_generic_tel.F12
+ Result model spec. file:	MNL_generic_tel.res
+ Sample statistics:		MNL_generic_tel.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			MNL_generic_tel.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -61.5664
+
+ Run time for estimation:      00:01
+ Total run time:               00:01

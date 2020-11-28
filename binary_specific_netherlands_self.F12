@@ -1,0 +1,15 @@
+Biogeme binary_specific_netherlands_self
+This file [binary_specific_netherlands_self.F12] has automatically been generated.
+11/25/20 21:26:28
+Michel Bierlaire, EPFL
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+END
+0	ASC_CAR	F	2.42981	0.972948
+1	BETA_COST	F	-0.054381	0.0113647
+2	BETA_TT_CAR	F	-2.26211	0.485251
+3	BETA_TT_RAIL	F	-0.5428	0.395735
+-1
+228	-158.038	-148.347	-118.023
+   7   0 11/25/20 21:26:28
+    -19 -54696  23114  57146  -1114  32792

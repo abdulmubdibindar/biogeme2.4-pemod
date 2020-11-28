@@ -1,0 +1,69 @@
+This file has automatically been generated.
+11/25/20 21:34:02
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[21:34:02]patFileNames.cc:52  binary_socio_econ_netherlands_self.par does not exist
+[21:34:02]patFileNames.cc:56  Trying default.par instead
+[21:34:02]patBiogeme.cc:134  Read default.par
+ Read headers in netherlands.dat
+ 21 headers read in netherlands.dat
+ Total number of different headers: 21
+ Read file binary_socio_econ_netherlands_self.mod
+ Section [DataFile] is now obsolete
+ Opening file netherlands.dat
+ Total obs.:   227
+ Total memory: 33.3984 Kb
+ Detailed info in binary_socio_econ_netherlands_self.sta
+ Nbr of attributes: 24
+ Nbr of alternatives: 2
+ Sample size: 228
+ Nbr of groups: 1
+ Nbr of betas: 6
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 5
+ Utility function: Linear-in-parameters
+ Init loglike=-158.038
+     gmax Iter   radius        f(x)     Status       rhok nFree
+ +6.33e-001    1 1.00e+000 +1.5803756e+002 ****Converg  +1.07e+000 5  ++ P
+ +6.32e-001    2 2.00e+000 +1.3097312e+002 ****Converg  +1.08e+000 5  ++ P
+ +5.43e-001    3 4.00e+000 +1.1930394e+002 ****Converg  +1.05e+000 5  ++ P
+ +7.68e-002    4 8.00e+000 +1.1772465e+002 ****Converg  +1.03e+000 5  ++ P
+ +8.52e-002    5 1.60e+001 +1.1589033e+002 ****Converg  +1.00e+000 5  ++ P
+ +4.50e-003    6 3.20e+001 +1.1588526e+002 ****Converg  +9.98e-001 5  ++ P
+ +5.57e-004    7 6.40e+001 +1.1588154e+002 ****Converg  +1.00e+000 5  ++ P
+ +4.11e-005    8 1.28e+002 +1.1588050e+002 ****Converg  +1.00e+000 5  ++ P
+ Convergence reached...
+ Run time: 00:00
+ Solution = (2.85158	-0.0575207	0.675176	-2.33798	-0.52944	)
+ Gradient = (-5.09388e-005	-1.9245e-005	7.35852e-005	3.24724e-005	-3.49196e-005	)
+ Final log likelihood=-115.88
+ Be patient... BIOGEME is preparing the output files
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		binary_socio_econ_netherlands_self.mod
+ Sample 1 :				netherlands.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		binary_socio_econ_netherlands_self.rep
+ Estimation results (HTML):	binary_socio_econ_netherlands_self.html
+ Estimation results (Latex):	binary_socio_econ_netherlands_self.tex
+ Estimation results (ALogit):	binary_socio_econ_netherlands_self.F12
+ Result model spec. file:	binary_socio_econ_netherlands_self.res
+ Sample statistics:		binary_socio_econ_netherlands_self.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			binary_socio_econ_netherlands_self.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Logit Model
+ ==================
+ The minimum argument of exp was -4.18443
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

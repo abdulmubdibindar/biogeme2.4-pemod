@@ -1,0 +1,24 @@
+++++++++ 11/25/20 21:30:26 ++++++++
+Sample size=228
+Excluded Obs.:       0
+Total obs. in files: 227
+Number of cases:     228
+Statistics of attributes
+++++++++++++++++++++++++
+Name	Nbr	Mean	Min	Max	Recommended/Conservative upper bounds for Box-Cox
+car_cost	228	16.2043	0.25	90	
+car_time	228	1.7239	0.767	3.05	
+choice	228	0.353712	0	1	
+one	228	1	1	1	
+rail_cost	228	35.0622	7.8	75	
+Nbr of times alternatives are available
+Alt	#
+0	228
+1	228
+Nbr of times alternatives are chosen
+Alt	#
+0	147
+1	81
+Group membership
+Group	#
+1	228

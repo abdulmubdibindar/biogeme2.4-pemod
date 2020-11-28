@@ -1,0 +1,417 @@
+This file has automatically been generated.
+11/27/20 18:32:36
+Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+[18:32:36]patFileNames.cc:52  GEV_Tel_NL_restricted.par does not exist
+[18:32:36]patFileNames.cc:56  Trying default.par instead
+[18:32:36]patBiogeme.cc:134  Read default.par
+ Read headers in tel.dat
+ 25 headers read in tel.dat
+ Total number of different headers: 25
+ Read file GEV_Tel_NL_restricted.mod
+Warning:  Lower bound on mu set to 1e-005
+Warning:   Value defined by gevMinimumMu in default.par
+ Opening file tel.dat
+ Total obs.:   433
+ Total memory: 66.1172 Kb
+ Detailed info in GEV_Tel_NL_restricted~2.sta
+ Nbr of attributes: 31
+ Nbr of alternatives: 5
+ Sample size: 434
+ Nbr of groups: 1
+ Nbr of betas: 6
+ Run time for data processing: 00:00
+ Dimension of the optimisation problem = 7
+ Utility function: Linear-in-parameters
+ Init loglike=-560.25
+ Use CFSQP
+ 
+
+  CFSQP Version 2.5d (Released February 1998)
+           Copyright (c) 1993 --- 1998
+            C.T. Lawrence, J.L. Zhou
+                 and A.L. Tits
+              All Rights Reserved
+
+ The given initial point is feasible for inequality
+          constraints and linear equality constraints:
+                      	 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +1.00000000000000e+000
+  			 +1.00000000000000e+000
+  objectives
+  			 +5.60249579735546e+002
+  constraints
+  			 +0.00000000000000e+000
+  
+  iteration                                    1
+  x                   	 -6.25000000000000e-001
+  			 +2.50000000000000e-002
+  			 +6.25000000000000e-001
+  			 -6.25000000000000e-001
+  			 -6.25000000000000e-001
+  			 +1.09486908704172e+000
+  			 +1.09486908704172e+000
+  objectives
+  			 +5.26076505162717e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +6.25000000000000e-002
+  d0norm                  +2.01188487136361e+001
+  ktnorm                  +2.01188487136361e+001
+  ncallf                                       6
+ 
+ iteration                                    2
+  x                   	 -1.21093750000000e+000
+  			 +5.51169324204090e-002
+  			 +4.10614870899273e-001
+  			 +3.90625000000000e-002
+  			 -1.21093750000000e+000
+  			 +1.08893976910161e+000
+  			 +1.08893976910161e+000
+  objectives
+  			 +5.05605277483837e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +6.25000000000000e-002
+  d0norm                  +1.73403600500690e+001
+  ktnorm                  +4.01347398417107e+001
+  ncallf                                      11
+ 
+ iteration                                    3
+  x                   	 -4.63818796798010e-001
+  			 +1.24469494930687e-001
+  			 +1.09324513612419e+000
+  			 +1.28417968750000e+000
+  			 -2.30957031250000e+000
+  			 +1.07782229796391e+000
+  			 +1.07782229796391e+000
+  objectives
+  			 +4.91831267640260e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.25000000000000e-001
+  d0norm                  +1.55672235720888e+001
+  ktnorm                  +2.89723551208706e+001
+  ncallf                                      15
+ 
+ iteration                                    4
+  x                   	 -6.05622077629357e-001
+  			 +2.49211115953971e-001
+  			 +1.62451404952684e+000
+  			 +2.37365722656250e+000
+  			 -2.28287266312265e+000
+  			 +1.06809451071842e+000
+  			 +1.06809451071842e+000
+  objectives
+  			 +4.83015673954758e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.25000000000000e-001
+  d0norm                  +9.81681376614282e+000
+  ktnorm                  +5.16083625794383e+001
+  ncallf                                      19
+ 
+ iteration                                    5
+  x                   	 -7.67368014125508e-001
+  			 +1.89509579600906e+000
+  			 +1.11071299112997e+000
+  			 +1.43443909489684e+000
+  			 -1.82914038799469e+000
+  			 +1.00000000000000e+000
+  			 +1.00000000000000e+000
+  objectives
+  			 +4.79524741304667e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +2.02394838292509e+000
+  ktnorm                  +2.43015625660815e+001
+  ncallf                                      20
+ 
+ iteration                                    6
+  x                   	 -6.57026585088072e-001
+  			 +2.07340962111402e+000
+  			 +1.01179999615905e+000
+  			 +1.59667272386671e+000
+  			 -1.91584886481745e+000
+  			 +1.38359896459034e+000
+  			 +1.38359896459034e+000
+  objectives
+  			 +4.78105856451750e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.25000000000000e-001
+  d0norm                  +4.94377522693523e+000
+  ktnorm                  +8.70961909143458e+000
+  ncallf                                      24
+ 
+ iteration                                    7
+  x                   	 -5.39053851605510e-001
+  			 +7.28920632946739e-001
+  			 +9.77770130531710e-001
+  			 +1.71971351009774e+000
+  			 -1.97232541833841e+000
+  			 +1.62217512874833e+000
+  			 +1.62217512874833e+000
+  objectives
+  			 +4.75843058358543e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +5.00000000000000e-001
+  d0norm                  +2.79634908070196e+000
+  ktnorm                  +1.17811031575354e+001
+  ncallf                                      26
+ 
+ iteration                                    8
+  x                   	 -5.08935968722328e-001
+  			 +9.17698009340329e-001
+  			 +1.06141648754981e+000
+  			 +1.63728781686060e+000
+  			 -1.83827934571345e+000
+  			 +1.54478245861075e+000
+  			 +1.54478245861075e+000
+  objectives
+  			 +4.74321592182801e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +2.83341301302263e-001
+  ktnorm                  +1.75581451275877e+001
+  ncallf                                      27
+ 
+ iteration                                    9
+  x                   	 -4.14707565759480e-001
+  			 +9.12238333337518e-001
+  			 +9.84489221767703e-001
+  			 +1.54762960127668e+000
+  			 -1.67028959928550e+000
+  			 +1.74092004285741e+000
+  			 +1.74092004285741e+000
+  objectives
+  			 +4.73796744913956e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +3.57806733646184e-001
+  ktnorm                  +3.30557812151014e+000
+  ncallf                                      28
+ 
+ iteration                                   10
+  x                   	 -4.02958877108199e-001
+  			 +7.53256689815819e-001
+  			 +8.81746522587556e-001
+  			 +1.35824621903129e+000
+  			 -1.51903927242852e+000
+  			 +1.94281192278928e+000
+  			 +1.94281192278928e+000
+  objectives
+  			 +4.73530216185198e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +4.19800721898617e-001
+  ktnorm                  +5.93433705776691e+000
+  ncallf                                      29
+ 
+ iteration                                   11
+  x                   	 -3.60047920791502e-001
+  			 +8.76079188807709e-001
+  			 +8.97081514111221e-001
+  			 +1.39602287665869e+000
+  			 -1.52829451780620e+000
+  			 +2.10328407536863e+000
+  			 +2.10328407536863e+000
+  objectives
+  			 +4.73338257202387e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +2.64909866428295e-001
+  ktnorm                  +2.44802086948773e+000
+  ncallf                                      30
+ 
+ iteration                                   12
+  x                   	 -3.74743696391195e-001
+  			 +8.72434637369203e-001
+  			 +8.96213476233010e-001
+  			 +1.41545576833206e+000
+  			 -1.52688166630762e+000
+  			 +2.12314122976832e+000
+  			 +2.12314122976832e+000
+  objectives
+  			 +4.73299094609316e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +5.00000000000000e-001
+  d0norm                  +7.47863264313747e-002
+  ktnorm                  +5.23980016603833e+000
+  ncallf                                      32
+ 
+ iteration                                   13
+  x                   	 -3.71229795210528e-001
+  			 +8.20621035680980e-001
+  			 +8.88562697328490e-001
+  			 +1.39338415938695e+000
+  			 -1.50905055276630e+000
+  			 +2.14463872797009e+000
+  			 +2.14463872797009e+000
+  objectives
+  			 +4.73289750477150e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +6.69695500110148e-002
+  ktnorm                  +1.28216253693313e+000
+  ncallf                                      33
+ 
+ iteration                                   14
+  x                   	 -3.67738600910094e-001
+  			 +8.35540528467270e-001
+  			 +8.81133732005604e-001
+  			 +1.38202508079911e+000
+  			 -1.49716698867238e+000
+  			 +2.16208071999027e+000
+  			 +2.16208071999027e+000
+  objectives
+  			 +4.73288058848666e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +3.41857157540409e-002
+  ktnorm                  +2.71041147496759e-001
+  ncallf                                      34
+ 
+ iteration                                   15
+  x                   	 -3.67724882164695e-001
+  			 +8.33539822740429e-001
+  			 +8.82664974680488e-001
+  			 +1.38545316583118e+000
+  			 -1.49975089173205e+000
+  			 +2.16424077088052e+000
+  			 +2.16424077088052e+000
+  objectives
+  			 +4.73287743143048e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +5.84017786070252e-003
+  ktnorm                  +1.29043148485791e-001
+  ncallf                                      35
+ 
+ iteration                                   16
+  x                   	 -3.67718618713138e-001
+  			 +8.33097658945576e-001
+  			 +8.82545181294046e-001
+  			 +1.38505141481204e+000
+  			 -1.49935230418828e+000
+  			 +2.16480193836945e+000
+  			 +2.16480193836945e+000
+  objectives
+  			 +4.73287739476473e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +1.07702939627744e-003
+  ktnorm                  +3.13346913567670e-002
+  ncallf                                      36
+ 
+ iteration                                   17
+  x                   	 -3.67648190113384e-001
+  			 +8.32958061499292e-001
+  			 +8.82469290679001e-001
+  			 +1.38497703815111e+000
+  			 -1.49921565617726e+000
+  			 +2.16503627738962e+000
+  			 +2.16503627738962e+000
+  objectives
+  			 +4.73287739386712e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +4.05266751011108e-004
+  ktnorm                  +6.99613426753803e-003
+  ncallf                                      37
+ 
+ iteration                                   18
+  x                   	 -3.67671176651398e-001
+  			 +8.33041728976246e-001
+  			 +8.82491293168389e-001
+  			 +1.38500199251505e+000
+  			 -1.49926640927848e+000
+  			 +2.16497423711420e+000
+  			 +2.16497423711420e+000
+  objectives
+  			 +4.73287739323568e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +1.37511186014615e-004
+  ktnorm                  +3.90191698178956e-003
+  ncallf                                      38
+ 
+ iteration                                   19
+  inform                                       0
+  x                   	 -3.67671176651398e-001
+  			 +8.33041728976246e-001
+  			 +8.82491293168389e-001
+  			 +1.38500199251505e+000
+  			 -1.49926640927848e+000
+  			 +2.16497423711420e+000
+  			 +2.16497423711420e+000
+  objectives
+  			 +4.73287739323568e+002
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +4.43599100760204e-006
+  ktnorm                  +1.16063015055862e-004
+  ncallf                                      38
+ 
+ 
+Normal termination: You have obtained a solution !!
+ Run time: 00:00
+ Solution = (-0.367671	0.833042	0.882491	1.385	-1.49927	2.16497	2.16497	)
+ Gradient = (3.05352e-005	2.43409e-005	-8.52321e-005	-8.40274e-006	-6.40726e-005	-0.599749	0.599762	)
+ Final log likelihood=-473.288
+ Be patient... BIOGEME is preparing the output files
+ Compute hessian by finite difference
+ You can interrupt it by creating a file named STOP
+ 0%	[1/7] Est. term. time: 11/27/20 18:32:36 (in 00:00)
+ 10%	[2/7] Est. term. time: 11/27/20 18:32:36 (in 00:00)
+ 20%	[3/7] Est. term. time: 11/27/20 18:32:36 (in 00:00)
+ 30%	[4/7] Est. term. time: 11/27/20 18:32:36 (in 00:00)
+ 40%	[5/7] Est. term. time: 11/27/20 18:32:36 (in 00:00)
+ 50%	[6/7] Est. term. time: 11/27/20 18:32:36 (in 00:00)
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		GEV_Tel_NL_restricted.mod
+ Sample 1 :				tel.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		GEV_Tel_NL_restricted.rep
+ Estimation results (HTML):	GEV_Tel_NL_restricted.html
+ Estimation results (Latex):	GEV_Tel_NL_restricted.tex
+ Estimation results (ALogit):	GEV_Tel_NL_restricted.F12
+ Result model spec. file:	GEV_Tel_NL_restricted.res
+ Sample statistics:		GEV_Tel_NL_restricted~2.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			GEV_Tel_NL_restricted.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Nested Logit Model
+ ==================
+ The minimum argument of exp was -44.2696
+
+ Run time for estimation:      00:00
+ Total run time:               00:00

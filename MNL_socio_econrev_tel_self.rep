@@ -1,0 +1,75 @@
+// This file has automatically been generated.
+// 11/26/20 13:16:28
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Logit
+Number of estimated parameters: 7
+        Number of observations: 434
+         Number of individuals: 434
+           Null log likelihood: -560.250
+           Init log likelihood: -560.250
+          Final log likelihood: -467.804
+         Likelihood ratio test: 184.891
+                    Rho-square: 0.165
+           Adjusted rho-square: 0.153
+           Final gradient norm: +3.708e-004
+                    Diagnostic: Convergence reached...
+                    Iterations: 7
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: tel.dat
+
+Utility parameters
+******************
+Name     Value  Std err   t-test p-val   Rob. std err Rob. t-test Rob. p-val   
+----     -----  -------   ------ -----   ------------ ----------- ----------   
+ASC_1    -0.559 0.149     -3.75  0.00    0.146        -3.82       0.00         
+ASC_2    0.000  --fixed--                                                      
+ASC_3    -0.714 0.352     -2.03  0.04    0.381        -1.88       0.06       * 
+ASC_4    -0.909 0.790     -1.15  0.25  * 0.839        -1.08       0.28       * 
+ASC_5    -0.302 0.534     -0.56  0.57  * 0.542        -0.56       0.58       * 
+B1_FCOST -0.111 0.0211    -5.24  0.00    0.0229       -4.84       0.00         
+B2_MCOST -0.188 0.0296    -6.33  0.00    0.0412       -4.55       0.00         
+B3_USERS -0.403 0.105     -3.86  0.00    0.110        -3.66       0.00         
+
+Utility functions
+*****************
+1	BM	avail1	ASC_1 * one + B2_MCOST * cost1 + B3_USERS * users
+4	EF	avail4	ASC_4 * one + B1_FCOST * cost4
+3	LF	avail3	ASC_3 * one + B1_FCOST * cost3
+5	MF	avail5	ASC_5 * one + B1_FCOST * cost5
+2	SM	avail2	ASC_2 * one + B2_MCOST * cost2 + B3_USERS * users
+
+
+Correlation of coefficients
+***************************
+Coeff1   Coeff2   Covariance Correlation t-test   Rob. covar. Rob. correl. Rob. t-test   
+------   ------   ---------- ----------- ------   ----------- ------------ -----------   
+ASC_5    B3_USERS 0.0171     0.306       0.20   * 0.0132      0.222        0.19        * 
+ASC_5    B2_MCOST 0.00237    0.150       -0.21  * 0.00435     0.195        -0.21       * 
+ASC_3    ASC_4    0.123      0.442       0.27   * 0.153       0.479        0.26        * 
+ASC_5    B1_FCOST -0.00846   -0.750      -0.35  * -0.00879    -0.710       -0.34       * 
+ASC_1    ASC_3    0.0105     0.200       0.44   * 0.0126      0.226        0.41        * 
+ASC_1    ASC_4    0.0112     0.0947      0.44   * 0.0106      0.0868       0.42        * 
+ASC_1    ASC_5    0.0101     0.127       -0.48  * 0.0135      0.171        -0.48       * 
+ASC_4    B3_USERS 0.0179     0.217       -0.65  * 0.0171      0.186        -0.61       * 
+ASC_4    ASC_5    0.167      0.395       -0.80  * 0.187       0.412        -0.77       * 
+ASC_1    B3_USERS 5.65e-005  0.00363     -0.86  * 0.000326    0.0202       -0.86       * 
+ASC_4    B2_MCOST 0.00431    0.184       -0.92  * 0.00936     0.271        -0.87       * 
+ASC_3    B3_USERS 0.0181     0.493       -0.99  * 0.0157      0.375        -0.88       * 
+ASC_4    B1_FCOST -0.00365   -0.219      -1.00  * -0.00292    -0.152       -0.95       * 
+ASC_3    ASC_5    0.162      0.865       -1.42  * 0.177       0.858        -1.42       * 
+ASC_3    B2_MCOST 0.00361    0.347       -1.54  * 0.00726     0.463        -1.45       * 
+ASC_3    B1_FCOST -0.00373   -0.502      -1.66  * -0.00347    -0.399       -1.55       * 
+B2_MCOST B3_USERS -0.000451  -0.146      1.91   * -0.000835   -0.184       1.73        * 
+B1_FCOST B2_MCOST 0.000170   0.272       2.46     0.000301    0.320        1.92        * 
+ASC_1    B2_MCOST 0.000401   0.0907      -2.48    0.000468    0.0777       -2.49         
+B1_FCOST B3_USERS 0.000108   0.0491      2.77     0.000293    0.116        2.66          
+ASC_1    B1_FCOST 5.49e-005  0.0174      -2.98    -6.22e-005  -0.0186      -3.02         
+
+Smallest singular value of the hessian: 1.2742
+

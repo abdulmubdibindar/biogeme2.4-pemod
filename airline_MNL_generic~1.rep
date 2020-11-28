@@ -1,0 +1,92 @@
+// This file has automatically been generated.
+// 11/28/20 10:20:58
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Logit
+Number of estimated parameters: 7
+        Number of observations: 3609
+         Number of individuals: 3609
+           Null log likelihood: -3964.892
+            Cte log likelihood: -2986.692
+           Init log likelihood: -3964.892
+          Final log likelihood: -2436.955
+         Likelihood ratio test: 3055.873
+                    Rho-square: 0.385
+           Adjusted rho-square: 0.384
+           Final gradient norm: +9.853e-004
+                    Diagnostic: Normal termination. Obj: 6.05545e-006 Const: 6.05545e-006
+                    Iterations: 32
+                      Run time: 00:00
+           Variance-covariance: from analytical hessian
+                   Sample file: airline.dat
+
+Utility parameters
+******************
+Name       Value     Std err   t-test  p-val   
+----       -----     -------   ------  -----   
+ASC_1      -48.0     0.0585    -820.87 0.00    
+ASC_2      0.218     0.0655    3.32    0.00    
+ASC_3      0.000     --fixed--                 
+B_COST     -0.0188   0.000671  -27.98  0.00    
+B_FLY_TIME -100.     1.80e+308 -0.00   1.00  * 
+B_LEGROOM1 2.03e-007 1.80e+308 0.00    1.00  * 
+B_LEGROOM2 1.89e-007 1.80e+308 0.00    1.00  * 
+B_LEGROOM3 1.75e-007 1.80e+308 0.00    1.00  * 
+
+Utility functions
+*****************
+1	NonStop	one	ASC_1 * one + B_COST * Fare_1 + B_FLY_TIME * FlyingTimeHours_1 + B_LEGROOM1 * Legroom_1 + B_LEGROOM2 * Legroom_2 + B_LEGROOM3 * Legroom_3
+2	OneStop1	one	ASC_2 * one + B_COST * Fare_2 + B_FLY_TIME * FlyingTimeHours_2 + B_LEGROOM1 * Legroom_1 + B_LEGROOM2 * Legroom_2 + B_LEGROOM3 * Legroom_3
+3	OneStop2	one	ASC_3 * one + B_COST * Fare_3 + B_FLY_TIME * FlyingTimeHours_3 + B_LEGROOM1 * Legroom_1 + B_LEGROOM2 * Legroom_2 + B_LEGROOM3 * Legroom_3
+
+
+Correlation of coefficients
+***************************
+Coeff1     Coeff2     Covariance Correlation t-test      
+------     ------     ---------- ----------- ------      
+ASC_1      ASC_2      0.00240    0.626       -893.28     
+ASC_1      B_COST     -1.56e-005 -0.397      -816.78     
+ASC_1      B_FLY_TIME -7.30e-017 0.000       888.81      
+ASC_1      B_LEGROOM1 0.0275     0.000       0.00      * 
+ASC_1      B_LEGROOM2 -0.364     0.000       0.00      * 
+ASC_1      B_LEGROOM3 0.0743     0.000       0.00      * 
+ASC_2      B_COST     -2.48e-006 -0.0565     3.61        
+ASC_2      B_FLY_TIME 1.38e-018  0.000       1530.49     
+ASC_2      B_LEGROOM1 6.12e-005  0.000       0.00      * 
+ASC_2      B_LEGROOM2 -0.000811  0.000       0.00      * 
+ASC_2      B_LEGROOM3 0.000165   0.000       0.00      * 
+B_COST     B_FLY_TIME -7.40e-021 0.000       148951.67   
+B_COST     B_LEGROOM1 -1.45e-007 0.000       0.00      * 
+B_COST     B_LEGROOM2 1.92e-006  0.000       0.00      * 
+B_COST     B_LEGROOM3 -3.92e-007 0.000       0.00      * 
+B_FLY_TIME B_LEGROOM1 0.0549     0.501       0.00      * 
+B_FLY_TIME B_LEGROOM2 -0.727     -1.84       0.00      * 
+B_FLY_TIME B_LEGROOM3 0.148      1.10        0.00      * 
+B_LEGROOM1 B_LEGROOM2 1.20e+015  3.67        0.00      * 
+B_LEGROOM1 B_LEGROOM3 -2.45e+014 -2.19       0.00      * 
+B_LEGROOM2 B_LEGROOM3 2.42e+014  0.597       0.00      * 
+
+Smallest singular value of the hessian: 5.34604e-016
+
+
+Unidentifiable model
+********************
+The log likelihood is (almost) flat along the following combination of parameters
+Sing. value = 5.34604e-016
+-0.659  * B_LEGROOM1 
+0.649   * B_LEGROOM2 
+-0.372  * B_LEGROOM3 
+-0.0330 * Param[11]  
+0.0325  * Param[12]  
+-0.0186 * Param[13]  
+0.0330  * Param[18]  
+-0.0325 * Param[19]  
+0.0186  * Param[20]  
+
+Sing. value = 3.55587e-005
+-1.00 * Param[10] 
+
