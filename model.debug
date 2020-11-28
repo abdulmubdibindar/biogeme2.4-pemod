@@ -156,7 +156,7 @@ Scale
 Scale1	x[4294967295]=Scale1 (1,1) [1,1] FIXED ID=0
 Mu
 ~~
-x[4294967295]=??? (1,1) [0,1] FIXED ID=4294967295
+x[4294967295]=Mu (1,1) [1e-005,1] FIXED ID=4294967295
 Scale
 ~~~~~
 Scale1	x[4294967295]=Scale1 (1,1) [1,1] FIXED ID=0
