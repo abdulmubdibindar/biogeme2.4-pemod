@@ -3,10 +3,6 @@
 // Muhammad Abdul Mubdi Bindar, 2020
 // Dataset: airline.dat
 
-
-[DataFile]
-$COLUMNS = 56
-
 [Choice]
 BestAlt
 
