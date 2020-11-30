@@ -46,4 +46,4 @@ N_STOP    1.0          1.0        10.0       0      2 3
 // List of pairs of nests for which the associated
 // coefficients  must be constrained to be equal
 // Syntax: COEF_NEST_A = COEF_NEST_B
-N_NONS = N_STOP
+N_NONS = N_STOP 
