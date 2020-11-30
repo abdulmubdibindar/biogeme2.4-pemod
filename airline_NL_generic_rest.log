@@ -1,29 +1,372 @@
 This file has automatically been generated.
-11/28/20 17:01:36
+11/30/20 14:40:14
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[17:01:36]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
-[17:01:36]patFileNames.cc:56  Trying default.par instead
-[17:01:36]patBiogeme.cc:134  Read default.par
+[14:40:14]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
+[14:40:14]patFileNames.cc:56  Trying default.par instead
+[14:40:14]patBiogeme.cc:134  Read default.par
  Read headers in airline.dat
  57 headers read in airline.dat
  Total number of different headers: 57
  Read file airline_NL_generic_rest.mod
- Section [DataFile] is now obsolete
 Warning:  Lower bound on mu set to 1e-005
 Warning:   Value defined by gevMinimumMu in default.par
-Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 50
-Unidentified token: <N>
-Please check the syntax. A common mistake is to forget the
-mandatory blank space terminating each variable name.
-Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 50
-Unidentified token: <N>
-Please check the syntax. A common mistake is to forget the
-mandatory blank space terminating each variable name.
-Warning:  Error: Syntax error in file [airline_NL_generic_rest.mod] at line 50
-Unidentified token: <N>
-Please check the syntax. A common mistake is to forget the
-mandatory blank space terminating each variable name.
+ Opening file airline.dat
+ Data  file... line 500	Memory: 81 Kb
+ Data  file... line 1000	Memory: 163 Kb
+ Data  file... line 1500	Memory: 245 Kb
+ Data  file... line 2000	Memory: 327 Kb
+ Data  file... line 2500	Memory: 409 Kb
+ Data  file... line 3000	Memory: 491 Kb
+ Data  file... line 3500	Memory: 573 Kb
+ Total obs.:   3608
+ Total memory: 592.102 Kb
+ Detailed info in airline_NL_generic_rest.sta
+ Nbr of attributes: 58
+ Nbr of alternatives: 3
+ Sample size: 3609
+ Nbr of groups: 1
+ Nbr of betas: 5
+ Run time for data processing: 00:01
+ Dimension of the optimisation problem = 6
+ Utility function: Linear-in-parameters
+ Init loglike=-3964.89
+ Use CFSQP
+ 
+
+  CFSQP Version 2.5d (Released February 1998)
+           Copyright (c) 1993 --- 1998
+            C.T. Lawrence, J.L. Zhou
+                 and A.L. Tits
+              All Rights Reserved
+
+ The given initial point is feasible for inequality
+          constraints and linear equality constraints:
+                      	 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +0.00000000000000e+000
+  			 +1.00000000000000e+000
+  			 +1.00000000000000e+000
+  objectives
+  			 +3.96489174980298e+003
+  constraints
+  			 +0.00000000000000e+000
+  
+  iteration                                    1
+  x                   	 +2.44140625000000e-002
+  			 -2.44140625000000e-002
+  			 -2.44140625000000e-002
+  			 -2.44140625000000e-002
+  			 +1.00219726562500e+000
+  			 +1.00219726562500e+000
+  objectives
+  			 +3.68657737150671e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +2.44140625000000e-004
+  d0norm                  +2.00404590765781e+002
+  ktnorm                  +2.00404590765781e+002
+  ncallf                                      14
+ 
+ iteration                                    2
+  x                   	 +8.05473327636719e-001
+  			 -8.05473327636719e-001
+  			 -2.23562532054498e-002
+  			 -8.05473327636719e-001
+  			 +1.07249259948730e+000
+  			 +1.07249259948730e+000
+  objectives
+  			 +2.66955074565194e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +7.81250000000000e-003
+  d0norm                  +1.73629904216056e+002
+  ktnorm                  +3.21805644023620e+004
+  ncallf                                      22
+ 
+ iteration                                    3
+  x                   	 +1.18330112074562e+000
+  			 +7.69612193107605e-001
+  			 -2.27334909490830e-002
+  			 -1.10285730217469e+000
+  			 +1.07135990262032e+000
+  			 +1.07135990262032e+000
+  objectives
+  			 +2.63343445697292e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.56250000000000e-002
+  d0norm                  +1.05397880277382e+002
+  ktnorm                  +4.68253578565692e+003
+  ncallf                                      29
+ 
+ iteration                                    4
+  x                   	 +2.14170318764975e+000
+  			 +8.24851510853197e-001
+  			 -2.27849115987427e-002
+  			 -5.89996798341238e-001
+  			 +1.06912990566343e+000
+  			 +1.06912990566343e+000
+  objectives
+  			 +2.61479083960305e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +3.12500000000000e-002
+  d0norm                  +3.48289056798153e+001
+  ktnorm                  +6.91182991076480e+003
+  ncallf                                      35
+ 
+ iteration                                    5
+  x                   	 +1.75059261129137e+000
+  			 +3.08019551132048e-001
+  			 -2.18653648355461e-002
+  			 -7.40630032742736e-002
+  			 +1.50097235431410e+000
+  			 +1.50097235431410e+000
+  objectives
+  			 +2.44272298474570e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +1.02919730124998e+000
+  ktnorm                  +7.60632774440271e+003
+  ncallf                                      36
+ 
+ iteration                                    6
+  x                   	 +1.20795377108250e+000
+  			 +5.31189438171509e-003
+  			 -2.09205555511079e-002
+  			 -3.34960991258061e-001
+  			 +1.25048617715705e+000
+  			 +1.25048617715705e+000
+  objectives
+  			 +2.42753566261010e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +5.00000000000000e-001
+  d0norm                  +1.52268728115865e+000
+  ktnorm                  +1.27309302480552e+004
+  ncallf                                      38
+ 
+ iteration                                    7
+  x                   	 +8.42038451137523e-001
+  			 -2.77940883018837e-002
+  			 -1.87778610728406e-002
+  			 -4.11898832564310e-001
+  			 +1.62818815321390e+000
+  			 +1.62818815321390e+000
+  objectives
+  			 +2.42198222094675e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +6.25000000000000e-002
+  d0norm                  +1.04458266095830e+001
+  ktnorm                  +7.93059610763446e+003
+  ncallf                                      43
+ 
+ iteration                                    8
+  x                   	 +1.02838403989343e+000
+  			 +3.13470033051367e-001
+  			 -1.57478160801087e-002
+  			 -4.14590858038966e-001
+  			 +1.81504867379325e+000
+  			 +1.81504867379325e+000
+  objectives
+  			 +2.41032638078620e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +4.70144675018204e-001
+  ktnorm                  +7.71966063004141e+003
+  ncallf                                      44
+ 
+ iteration                                    9
+  x                   	 +1.38433600301168e+000
+  			 +1.24769884764458e-001
+  			 -1.58829629320049e-002
+  			 -1.49707818098610e-001
+  			 +1.76154047754849e+000
+  			 +1.76154047754849e+000
+  objectives
+  			 +2.40134158783798e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +4.88056188624512e-001
+  ktnorm                  +2.76329659268571e+003
+  ncallf                                      45
+ 
+ iteration                                   10
+  x                   	 +1.15757188254862e+000
+  			 +1.48278030168832e-001
+  			 -1.64158435630031e-002
+  			 -2.78671395222212e-001
+  			 +1.76374898911233e+000
+  			 +1.76374898911233e+000
+  objectives
+  			 +2.39802746362572e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +2.61947022244334e-001
+  ktnorm                  +1.23111256721545e+003
+  ncallf                                      46
+ 
+ iteration                                   11
+  x                   	 +1.16832918256249e+000
+  			 +1.61724032093672e-001
+  			 -1.59283117611706e-002
+  			 -2.61428941562215e-001
+  			 +1.82727660534772e+000
+  			 +1.82727660534772e+000
+  objectives
+  			 +2.39764296046997e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +9.30890456279813e-002
+  ktnorm                  +7.92305768436025e+002
+  ncallf                                      47
+ 
+ iteration                                   12
+  x                   	 +1.16815046157915e+000
+  			 +1.54527177112572e-001
+  			 -1.58376869237674e-002
+  			 -2.58017625233827e-001
+  			 +1.85285127428209e+000
+  			 +1.85285127428209e+000
+  objectives
+  			 +2.39756471308713e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +3.70351095174198e-002
+  ktnorm                  +5.31179194247531e+001
+  ncallf                                      48
+ 
+ iteration                                   13
+  x                   	 +1.16336611104099e+000
+  			 +1.50791655822783e-001
+  			 -1.57998492668610e-002
+  			 -2.57090945853965e-001
+  			 +1.88429473865417e+000
+  			 +1.88429473865417e+000
+  objectives
+  			 +2.39753158383427e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +4.48897226453545e-002
+  ktnorm                  +1.60639609008850e+002
+  ncallf                                      49
+ 
+ iteration                                   14
+  x                   	 +1.16247957699194e+000
+  			 +1.51168682474649e-001
+  			 -1.58004787715272e-002
+  			 -2.58064379788052e-001
+  			 +1.88635563641556e+000
+  			 +1.88635563641556e+000
+  objectives
+  			 +2.39753105694601e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +3.22028956810813e-003
+  ktnorm                  +5.82301749505697e+000
+  ncallf                                      50
+ 
+ iteration                                   15
+  x                   	 +1.16246848823319e+000
+  			 +1.51155477276216e-001
+  			 -1.58009819563832e-002
+  			 -2.57930545770184e-001
+  			 +1.88651850881977e+000
+  			 +1.88651850881977e+000
+  objectives
+  			 +2.39753103741262e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +2.66953133477235e-004
+  ktnorm                  +7.66094609126377e+000
+  ncallf                                      51
+ 
+ iteration                                   16
+  x                   	 +1.16247575862675e+000
+  			 +1.51151922060522e-001
+  			 -1.58009956331322e-002
+  			 -2.57937393314226e-001
+  			 +1.88646295641482e+000
+  			 +1.88646295641482e+000
+  objectives
+  			 +2.39753103724616e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +7.92750062625449e-005
+  ktnorm                  +7.34344601212316e-001
+  ncallf                                      52
+ 
+ iteration                                   17
+  inform                                       0
+  x                   	 +1.16247575862675e+000
+  			 +1.51151922060522e-001
+  			 -1.58009956331322e-002
+  			 -2.57937393314226e-001
+  			 +1.88646295641482e+000
+  			 +1.88646295641482e+000
+  objectives
+  			 +2.39753103724616e+003
+  constraints
+  			 +0.00000000000000e+000
+  step                    +1.00000000000000e+000
+  d0norm                  +1.73038157266594e-006
+  ktnorm                  +1.29074247415420e-002
+  ncallf                                      52
+ 
+ 
+Normal termination: You have obtained a solution !!
+ Run time: 00:00
+ Solution = (1.16248	0.151152	-0.015801	-0.257937	1.88646	1.88646	)
+ Gradient = (-6.23509e-005	-0.000283982	0.0129026	0.000161346	-9.91734e-018	-0.00012252	)
+ Final log likelihood=-2397.53
+ Be patient... BIOGEME is preparing the output files
+ Compute hessian by finite difference
+ You can interrupt it by creating a file named STOP
+ 0%	[1/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
+ 10%	[2/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
+ 20%	[3/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
+ 30%	[4/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
+ 40%	[5/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
+ Run time for var/covar computation: 00:00
+ BIOGEME Input files
+ ===================
+ Parameters:			default.par
+ Model specification:		airline_NL_generic_rest.mod
+ Sample 1 :				airline.dat
+ BIOGEME Output files
+ ====================
+ Estimation results:		airline_NL_generic_rest.rep
+ Estimation results (HTML):	airline_NL_generic_rest.html
+ Estimation results (Latex):	airline_NL_generic_rest.tex
+ Estimation results (ALogit):	airline_NL_generic_rest.F12
+ Result model spec. file:	airline_NL_generic_rest.res
+ Sample statistics:		airline_NL_generic_rest.sta
+ BIOGEME Debug files
+ ===================
+ Log file:			airline_NL_generic_rest.log
+ Parameters debug:		parameters.out
+ Model debug:			model.debug
+ Model spec. file debug:		__specFile.debug
+ Model informations: Nested Logit Model
+ ==================
+ The minimum argument of exp was -33950
+Underflows: 21245
+
+ Run time for estimation:      00:00
+ Total run time:               00:01
