@@ -1,13 +1,13 @@
 This file has automatically been generated.
-11/30/20 14:40:14
+11/30/20 14:47:20
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[14:40:14]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
-[14:40:14]patFileNames.cc:56  Trying default.par instead
-[14:40:14]patBiogeme.cc:134  Read default.par
+[14:47:20]patFileNames.cc:52  airline_NL_generic_rest.par does not exist
+[14:47:20]patFileNames.cc:56  Trying default.par instead
+[14:47:20]patBiogeme.cc:134  Read default.par
  Read headers in airline.dat
  57 headers read in airline.dat
  Total number of different headers: 57
@@ -24,7 +24,7 @@ Warning:   Value defined by gevMinimumMu in default.par
  Data  file... line 3500	Memory: 573 Kb
  Total obs.:   3608
  Total memory: 592.102 Kb
- Detailed info in airline_NL_generic_rest.sta
+ Detailed info in airline_NL_generic_rest~1.sta
  Nbr of attributes: 58
  Nbr of alternatives: 3
  Sample size: 3609
@@ -338,11 +338,11 @@ Normal termination: You have obtained a solution !!
  Be patient... BIOGEME is preparing the output files
  Compute hessian by finite difference
  You can interrupt it by creating a file named STOP
- 0%	[1/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
- 10%	[2/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
- 20%	[3/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
- 30%	[4/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
- 40%	[5/6] Est. term. time: 11/30/20 14:40:15 (in 00:00)
+ 0%	[1/6] Est. term. time: 11/30/20 14:47:21 (in 00:00)
+ 10%	[2/6] Est. term. time: 11/30/20 14:47:21 (in 00:00)
+ 20%	[3/6] Est. term. time: 11/30/20 14:47:21 (in 00:00)
+ 30%	[4/6] Est. term. time: 11/30/20 14:47:21 (in 00:00)
+ 40%	[5/6] Est. term. time: 11/30/20 14:47:21 (in 00:00)
  Run time for var/covar computation: 00:00
  BIOGEME Input files
  ===================
@@ -351,12 +351,12 @@ Normal termination: You have obtained a solution !!
  Sample 1 :				airline.dat
  BIOGEME Output files
  ====================
- Estimation results:		airline_NL_generic_rest.rep
- Estimation results (HTML):	airline_NL_generic_rest.html
- Estimation results (Latex):	airline_NL_generic_rest.tex
- Estimation results (ALogit):	airline_NL_generic_rest.F12
- Result model spec. file:	airline_NL_generic_rest.res
- Sample statistics:		airline_NL_generic_rest.sta
+ Estimation results:		airline_NL_generic_rest~1.rep
+ Estimation results (HTML):	airline_NL_generic_rest~1.html
+ Estimation results (Latex):	airline_NL_generic_rest~1.tex
+ Estimation results (ALogit):	airline_NL_generic_rest~1.F12
+ Result model spec. file:	airline_NL_generic_rest~1.res
+ Sample statistics:		airline_NL_generic_rest~1.sta
  BIOGEME Debug files
  ===================
  Log file:			airline_NL_generic_rest.log

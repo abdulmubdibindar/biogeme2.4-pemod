@@ -2,5 +2,3 @@ gevStopFileName = STOP
 gevScreenPrintLevel = 1
 gevLogFilePrintLevel = 2
 gevStoreDataOnFile = 0
-gevBufferSize = 100000
-gevMinimumMu = 1e-005

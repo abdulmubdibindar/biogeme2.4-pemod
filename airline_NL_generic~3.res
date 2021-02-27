@@ -1,5 +1,5 @@
 // This file has automatically been generated.
-// 11/30/20 14:47:20
+// 11/29/20 19:39:37
 // Michel Bierlaire, EPFL
 // biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 // Michel Bierlaire, EPFL
@@ -21,11 +21,11 @@ $NONE
 
 [Beta]
 // Name Value  LowerBound UpperBound  status (0=variable, 1=fixed)
-ASC_1	0	-100	100	0
-ASC_2	0	-100	100	0
+ASC_1	1.16248	-100	100	0
+ASC_2	0.151153	-100	100	0
 ASC_3	0	-100	100	1
-B_COST	0	-100	100	0
-B_TRIP_TIME	0	-100	100	0
+B_COST	-0.015801	-100	100	0
+B_TRIP_TIME	-0.257937	-100	100	0
 
 [LaTeX]
 $NONE
@@ -111,7 +111,7 @@ $NL  // Nested Logit Model
 [NLNests]
 // Name paramvalue  LowerBound UpperBound  status list of alt
 N_NONS	1	1	10	 0 1
-N_STOP	1	1	10	 0 2 3
+N_STOP	1.88646	1	10	 0 2 3
 [CNLNests]
 // Name paramvalue LowerBound UpperBound  status 
 $NONE

@@ -1,0 +1,70 @@
+// This file has automatically been generated.
+// 11/29/20 19:39:37
+// Michel Bierlaire, EPFL
+
+biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
+Michel Bierlaire, EPFL
+
+
+                         Model: Nested Logit
+Number of estimated parameters: 6
+        Number of observations: 3609
+         Number of individuals: 3609
+           Null log likelihood: -3964.892
+            Cte log likelihood: -2986.692
+           Init log likelihood: -3964.892
+          Final log likelihood: -2397.531
+         Likelihood ratio test: 3134.721
+                    Rho-square: 0.395
+           Adjusted rho-square: 0.394
+           Final gradient norm: +2.628e-002
+                    Diagnostic: Normal termination. Obj: 6.05545e-006 Const: 6.05545e-006
+                    Iterations: 18
+                      Run time: 00:01
+           Variance-covariance: from finite difference hessian
+                   Sample file: airline.dat
+
+Utility parameters
+******************
+Name        Value   Std err   t-test p-val 
+----        -----   -------   ------ ----- 
+ASC_1       1.16    0.0949    12.25  0.00  
+ASC_2       0.151   0.0411    3.67   0.00  
+ASC_3       0.000   --fixed--              
+B_COST      -0.0158 0.000748  -21.12 0.00  
+B_TRIP_TIME -0.258  0.0474    -5.44  0.00  
+Model parameters
+******************
+Name   Value Std err t-test(0) p-val(0) t-test(1) p-val(1)   
+----   ----- ------- --------- -------- --------- --------   
+N_NONS 1.00  0.0550  18.18     0.00     0.00      1.00     * 
+N_STOP 1.89  0.153   12.33     0.00     5.79      0.00     * 
+
+
+Utility functions
+*****************
+1	NonStop	one	ASC_1 * one + B_COST * Fare_1 + B_TRIP_TIME * TripTimeHours_1
+2	OneStop1	one	ASC_2 * one + B_COST * Fare_2 + B_TRIP_TIME * TripTimeHours_2
+3	OneStop2	one	ASC_3 * one + B_COST * Fare_3 + B_TRIP_TIME * TripTimeHours_3
+
+
+Correlation of coefficients
+***************************
+Coeff1 Coeff2      Covariance Correlation t-test 
+------ ------      ---------- ----------- ------ 
+ASC_1  ASC_2       0.00104    0.266       10.89  
+ASC_1  B_COST      -2.07e-005 -0.292      12.39  
+ASC_1  B_TRIP_TIME 0.00334    0.743       21.02  
+ASC_2  B_COST      -5.59e-006 -0.182      4.05   
+ASC_2  B_TRIP_TIME -0.000132  -0.0676     6.31   
+B_COST B_TRIP_TIME 6.39e-006  0.180       5.12   
+
+Smallest singular value of the hessian: 6.58231e-017
+
+
+Unidentifiable model
+********************
+The log likelihood is (almost) flat along the following combination of parameters
+Sing. value = 6.58231e-017
+1.00 * Param[10] 
+

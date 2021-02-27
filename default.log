@@ -1,11 +1,11 @@
 This file has automatically been generated.
-11/26/20 04:56:21
+11/30/20 16:08:28
 Michel Bierlaire, EPFL
 
 biogeme 2.4 [Sun Oct 25 23:01:47 WEST 2015]
 Michel Bierlaire, EPFL
 
-[04:56:21]patBiogeme.cc:134  Read default.par
+[16:08:28]patBiogeme.cc:134  Read default.par
 Warning:  Error: File sample.dat is missing
 
 Warning:  Error: File sample.dat is missing

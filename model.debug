@@ -1,4 +1,4 @@
-Spec File            : airline_NL_generic.mod
+Spec File            : airline_NL_generic_rest.mod
 Data Files           : airline.dat
 Parameter file       : default.par
 Choice               : BestAlt 
